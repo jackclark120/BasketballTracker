@@ -1,0 +1,220 @@
+[ @file = "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionMenuDelegate.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionMenuDelegate.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [System,2,14,20]; ]
+import Toybox.System;
+[ @file = "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionMenuDelegate.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [WatchUi,3,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionMenuDelegate.mc"; @line = 5; @symbol_classdef = [SessionMenuDelegate,5,6,25]; @symbol_extends<0> = [WatchUi,5,34,41]; @symbol_extends<1> = [Menu2InputDelegate,5,42,60]; ]
+class SessionMenuDelegate extends WatchUi.Menu2InputDelegate {
+    [ @file = "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionMenuDelegate.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionMenuDelegate.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionMenuDelegate.mc"; @line = 7; @symbol_functiondef = [initialize,7,13,23]; ]
+    function initialize() as Void {
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_8_4_10_4_start:
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionMenuDelegate.mc" 9 8 ]
+        symbol [ Menu2InputDelegate %tmp.2 9 8 26 ];
+        %tmp.2 = getv ? :Menu2InputDelegate;
+        symbol [ initialize %tmp.3 9 27 37 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_8_4_10_4_stop:
+    }
+    [ @file = "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionMenuDelegate.mc"; @line = 12; @symbol_functiondef = [onMenuItem,12,13,23]; @symbol_param<0> = [item,12,24,28]; ]
+    function onMenuItem(item) {
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_13_4_53_4_start:
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionMenuDelegate.mc" 14 8 ]
+        [ "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_13_4_53_4_start" "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_13_4_53_4_stop" ]
+        %app.1 = local;
+        symbol [ app %app.1 14 12 15 ];
+        symbol [ Application %tmp.2 14 18 29 ];
+        %tmp.2 = getv ? :Application;
+        symbol [ getApp %tmp.3 14 30 36 ];
+        %tmp.3 = getv function %tmp.2 :getApp;
+        %tmp.4 = invoke %tmp.2 %tmp.3();
+        lputv %app.1 %tmp.4;
+        symbol [ app %app.1 14 12 15 ];
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionMenuDelegate.mc" 15 8 ]
+        [ "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_13_4_53_4_start" "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_13_4_53_4_stop" ]
+        %session.2 = local;
+        symbol [ session %session.2 15 12 19 ];
+        %tmp.5 = "";
+        lputv %session.2 %tmp.5;
+        symbol [ session %session.2 15 12 19 ];
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionMenuDelegate.mc" 17 8 ]
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_17_8_48_8_if_stmt:
+        %tmp.6 = lgetv %item;
+        symbol [ item %tmp.6 17 11 15 ];
+        %tmp.8 = const :ft;
+        symbol [ ft %tmp.8 17 20 22 const ];
+        %tmp.9 = eq %tmp.6 %tmp.8;
+        bf %tmp.9 @C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_17_8_48_8_if_false;
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_17_8_48_8_if_true:
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_18_8_20_8_start:
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionMenuDelegate.mc" 19 12 ]
+        %tmp.10 = "Free Throw";
+        lputv %session.2 %tmp.10;
+        symbol [ session %session.2 19 12 19 ];
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_18_8_20_8_stop:
+        goto @C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_17_8_48_8_if_end;
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_17_8_48_8_if_false:
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionMenuDelegate.mc" 21 13 ]
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_21_13_48_8_if_stmt:
+        %tmp.11 = lgetv %item;
+        symbol [ item %tmp.11 21 16 20 ];
+        %tmp.13 = const :rbl;
+        symbol [ rbl %tmp.13 21 25 28 const ];
+        %tmp.14 = eq %tmp.11 %tmp.13;
+        bf %tmp.14 @C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_21_13_48_8_if_false;
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_21_13_48_8_if_true:
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_22_8_24_8_start:
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionMenuDelegate.mc" 23 12 ]
+        %tmp.15 = "Right Baseline";
+        lputv %session.2 %tmp.15;
+        symbol [ session %session.2 23 12 19 ];
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_22_8_24_8_stop:
+        goto @C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_21_13_48_8_if_end;
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_21_13_48_8_if_false:
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionMenuDelegate.mc" 25 13 ]
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_25_13_48_8_if_stmt:
+        %tmp.16 = lgetv %item;
+        symbol [ item %tmp.16 25 16 20 ];
+        %tmp.18 = const :lbl;
+        symbol [ lbl %tmp.18 25 25 28 const ];
+        %tmp.19 = eq %tmp.16 %tmp.18;
+        bf %tmp.19 @C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_25_13_48_8_if_false;
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_25_13_48_8_if_true:
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_26_8_28_8_start:
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionMenuDelegate.mc" 27 12 ]
+        %tmp.20 = "Left Baseline";
+        lputv %session.2 %tmp.20;
+        symbol [ session %session.2 27 12 19 ];
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_26_8_28_8_stop:
+        goto @C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_25_13_48_8_if_end;
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_25_13_48_8_if_false:
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionMenuDelegate.mc" 29 13 ]
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_29_13_48_8_if_stmt:
+        %tmp.21 = lgetv %item;
+        symbol [ item %tmp.21 29 16 20 ];
+        %tmp.23 = const :tk;
+        symbol [ tk %tmp.23 29 25 27 const ];
+        %tmp.24 = eq %tmp.21 %tmp.23;
+        bf %tmp.24 @C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_29_13_48_8_if_false;
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_29_13_48_8_if_true:
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_30_8_32_8_start:
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionMenuDelegate.mc" 31 12 ]
+        %tmp.25 = "Top of the Key";
+        lputv %session.2 %tmp.25;
+        symbol [ session %session.2 31 12 19 ];
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_30_8_32_8_stop:
+        goto @C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_29_13_48_8_if_end;
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_29_13_48_8_if_false:
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionMenuDelegate.mc" 33 13 ]
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_33_13_48_8_if_stmt:
+        %tmp.26 = lgetv %item;
+        symbol [ item %tmp.26 33 16 20 ];
+        %tmp.28 = const :rw;
+        symbol [ rw %tmp.28 33 25 27 const ];
+        %tmp.29 = eq %tmp.26 %tmp.28;
+        bf %tmp.29 @C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_33_13_48_8_if_false;
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_33_13_48_8_if_true:
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_34_8_36_8_start:
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionMenuDelegate.mc" 35 12 ]
+        %tmp.30 = "Right Wing";
+        lputv %session.2 %tmp.30;
+        symbol [ session %session.2 35 12 19 ];
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_34_8_36_8_stop:
+        goto @C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_33_13_48_8_if_end;
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_33_13_48_8_if_false:
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionMenuDelegate.mc" 37 13 ]
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_37_13_48_8_if_stmt:
+        %tmp.31 = lgetv %item;
+        symbol [ item %tmp.31 37 17 21 ];
+        %tmp.33 = const :lw;
+        symbol [ lw %tmp.33 37 26 28 const ];
+        %tmp.34 = eq %tmp.31 %tmp.33;
+        bf %tmp.34 @C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_37_13_48_8_if_false;
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_37_13_48_8_if_true:
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_38_8_40_8_start:
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionMenuDelegate.mc" 39 12 ]
+        %tmp.35 = "Left Wing";
+        lputv %session.2 %tmp.35;
+        symbol [ session %session.2 39 12 19 ];
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_38_8_40_8_stop:
+        goto @C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_37_13_48_8_if_end;
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_37_13_48_8_if_false:
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionMenuDelegate.mc" 41 13 ]
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_41_13_48_8_if_stmt:
+        %tmp.36 = lgetv %item;
+        symbol [ item %tmp.36 41 17 21 ];
+        %tmp.38 = const :rc;
+        symbol [ rc %tmp.38 41 26 28 const ];
+        %tmp.39 = eq %tmp.36 %tmp.38;
+        bf %tmp.39 @C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_41_13_48_8_if_false;
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_41_13_48_8_if_true:
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_42_8_44_8_start:
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionMenuDelegate.mc" 43 12 ]
+        %tmp.40 = "Right Corner";
+        lputv %session.2 %tmp.40;
+        symbol [ session %session.2 43 12 19 ];
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_42_8_44_8_stop:
+        goto @C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_41_13_48_8_if_end;
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_41_13_48_8_if_false:
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionMenuDelegate.mc" 45 13 ]
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_45_13_48_8_if_stmt:
+        %tmp.41 = lgetv %item;
+        symbol [ item %tmp.41 45 16 20 ];
+        %tmp.43 = const :lc;
+        symbol [ lc %tmp.43 45 25 27 const ];
+        %tmp.44 = eq %tmp.41 %tmp.43;
+        bf %tmp.44 @C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_45_13_48_8_if_end;
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_45_13_48_8_if_true:
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_46_8_48_8_start:
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionMenuDelegate.mc" 47 12 ]
+        %tmp.45 = "Left Corner";
+        lputv %session.2 %tmp.45;
+        symbol [ session %session.2 47 12 19 ];
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_46_8_48_8_stop:
+        goto @C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_45_13_48_8_if_end;
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_45_13_48_8_if_end:
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_41_13_48_8_if_end:
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_37_13_48_8_if_end:
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_33_13_48_8_if_end:
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_29_13_48_8_if_end:
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_25_13_48_8_if_end:
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_21_13_48_8_if_end:
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_17_8_48_8_if_end:
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionMenuDelegate.mc" 50 8 ]
+        %tmp.46 = lgetv %app.1;
+        symbol [ app %tmp.46 50 8 11 ];
+        symbol [ startLap %tmp.47 50 12 20 ];
+        %tmp.47 = getv function %tmp.46 :startLap;
+        invoke %tmp.46 %tmp.47();
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionMenuDelegate.mc" 51 8 ]
+        %tmp.48 = lgetv %app.1;
+        symbol [ app %tmp.48 51 8 11 ];
+        symbol [ setSession %tmp.49 51 12 22 ];
+        %tmp.49 = getv function %tmp.48 :setSession;
+        %tmp.50 = lgetv %session.2;
+        symbol [ session %tmp.50 51 23 30 ];
+        invoke %tmp.48 %tmp.49(%tmp.50);
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionMenuDelegate.mc" 52 8 ]
+        symbol [ WatchUi %tmp.51 52 8 15 ];
+        %tmp.51 = getm $.Toybox.WatchUi;
+        symbol [ popView %tmp.52 52 16 23 ];
+        %tmp.52 = getv function %tmp.51 :popView;
+        symbol [ WatchUi %tmp.53 52 24 31 ];
+        %tmp.53 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_UP %tmp.54 52 32 40 ];
+        %tmp.54 = getv %tmp.53 :SLIDE_UP;
+        invoke %tmp.51 %tmp.52(%tmp.54);
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionMenuDelegate_mc_13_4_53_4_stop:
+    }
+}
+[ @file = "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionMenuDelegate.mc"; @line = 1; ]
+<init> {
+}

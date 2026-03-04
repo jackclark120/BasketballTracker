@@ -1,0 +1,213 @@
+[ @file = "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerView.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Graphics,1,14,22]; ]
+import Toybox.Graphics;
+[ @file = "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerView.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [WatchUi,2,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerView.mc"; @line = 4; @symbol_classdef = [BasketballTrackerView,4,6,27]; @symbol_extends<0> = [WatchUi,4,36,43]; @symbol_extends<1> = [View,4,44,48]; ]
+class BasketballTrackerView extends WatchUi.View {
+    [ @file = "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerView.mc"; @line = 4; ]
+    <init> {
+    }
+    [ @file = "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerView.mc"; @line = 4; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerView.mc"; @line = 6; @position = 8; @symbol_vardef = [Shots,6,8,13]; ]
+    var Shots;
+    [ @file = "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerView.mc"; @line = 7; @position = 8; @symbol_vardef = [TotalShots,7,8,18]; ]
+    var TotalShots;
+    [ @file = "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerView.mc"; @line = 8; @position = 8; @symbol_vardef = [Location,8,8,16]; ]
+    var Location;
+    [ @file = "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerView.mc"; @line = 10; @symbol_functiondef = [initialize,10,13,23]; ]
+    function initialize() as Void {
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerView_mc_10_26_12_4_start:
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerView.mc" 11 8 ]
+        symbol [ View %tmp.2 11 8 12 ];
+        %tmp.2 = getv ? :View;
+        symbol [ initialize %tmp.3 11 13 23 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerView_mc_10_26_12_4_stop:
+    }
+    [ @file = "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerView.mc"; @line = 15; @symbol_functiondef = [onLayout,15,13,21]; @symbol_param<0> = [dc,15,22,24]; @symbol_param<0>_type<0> = [Dc,15,28,30]; ]
+    function onLayout(dc as Dc) as Void {
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerView_mc_15_40_17_4_start:
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerView.mc" 16 8 ]
+        %tmp.1 = self;
+        symbol [ setLayout %tmp.2 16 8 17 ];
+        %tmp.2 = getv function %tmp.1 :setLayout;
+        symbol [ Rez %tmp.4 16 18 21 ];
+        %tmp.4 = getv ? :Rez;
+        symbol [ Layouts %tmp.5 16 22 29 ];
+        %tmp.5 = getv %tmp.4 :Layouts;
+        symbol [ MainLayout %tmp.6 16 30 40 ];
+        %tmp.6 = getv function %tmp.5 :MainLayout;
+        %tmp.7 = lgetv %dc;
+        symbol [ dc %tmp.7 16 41 43 ];
+        %tmp.8 = invoke %tmp.5 %tmp.6(%tmp.7);
+        invoke %tmp.1 %tmp.2(%tmp.8);
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerView_mc_15_40_17_4_stop:
+    }
+    [ @file = "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerView.mc"; @line = 22; @symbol_functiondef = [onShow,22,13,19]; ]
+    function onShow() as Void {
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerView_mc_23_4_27_4_start:
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerView.mc" 24 8 ]
+        symbol [ View %tmp.2 24 16 20 ];
+        %tmp.2 = getv ? :View;
+        symbol [ findDrawableById %tmp.3 24 21 37 ];
+        %tmp.3 = getv function %tmp.2 :findDrawableById;
+        %tmp.4 = "Shots";
+        %tmp.5 = invoke %tmp.2 %tmp.3(%tmp.4);
+        symbol [ Shots ? 24 8 13 ];
+        putv self :Shots %tmp.5;
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerView.mc" 25 8 ]
+        symbol [ View %tmp.7 25 21 25 ];
+        %tmp.7 = getv ? :View;
+        symbol [ findDrawableById %tmp.8 25 26 42 ];
+        %tmp.8 = getv function %tmp.7 :findDrawableById;
+        %tmp.9 = "TotalShots";
+        %tmp.10 = invoke %tmp.7 %tmp.8(%tmp.9);
+        symbol [ TotalShots ? 25 8 18 ];
+        putv self :TotalShots %tmp.10;
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerView.mc" 26 8 ]
+        symbol [ View %tmp.12 26 19 23 ];
+        %tmp.12 = getv ? :View;
+        symbol [ findDrawableById %tmp.13 26 24 40 ];
+        %tmp.13 = getv function %tmp.12 :findDrawableById;
+        %tmp.14 = "SessionTitle";
+        %tmp.15 = invoke %tmp.12 %tmp.13(%tmp.14);
+        symbol [ Location ? 26 8 16 ];
+        putv self :Location %tmp.15;
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerView_mc_23_4_27_4_stop:
+    }
+    [ @file = "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerView.mc"; @line = 30; @symbol_functiondef = [onUpdate,30,13,21]; @symbol_param<0> = [dc,30,22,24]; @symbol_param<0>_type<0> = [Dc,30,28,30]; ]
+    function onUpdate(dc as Dc) as Void {
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerView_mc_31_4_45_4_start:
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerView.mc" 32 8 ]
+        [ "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerView_mc_31_4_45_4_start" "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerView_mc_31_4_45_4_stop" ]
+        %app.1 = local;
+        symbol [ app %app.1 32 12 15 ];
+        symbol [ Application %tmp.2 32 18 29 ];
+        %tmp.2 = getv ? :Application;
+        symbol [ getApp %tmp.3 32 30 36 ];
+        %tmp.3 = getv function %tmp.2 :getApp;
+        %tmp.4 = invoke %tmp.2 %tmp.3();
+        lputv %app.1 %tmp.4;
+        symbol [ app %app.1 32 12 15 ];
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerView.mc" 33 8 ]
+        [ "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerView_mc_31_4_45_4_start" "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerView_mc_31_4_45_4_stop" ]
+        %currentMade.2 = local;
+        symbol [ currentMade %currentMade.2 33 12 23 ];
+        %tmp.5 = lgetv %app.1;
+        symbol [ app %tmp.5 33 26 29 ];
+        symbol [ getSesShots %tmp.6 33 30 41 ];
+        %tmp.6 = getv function %tmp.5 :getSesShots;
+        %tmp.7 = invoke %tmp.5 %tmp.6();
+        lputv %currentMade.2 %tmp.7;
+        symbol [ currentMade %currentMade.2 33 12 23 ];
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerView.mc" 34 8 ]
+        [ "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerView_mc_31_4_45_4_start" "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerView_mc_31_4_45_4_stop" ]
+        %currentTotal.3 = local;
+        symbol [ currentTotal %currentTotal.3 34 12 24 ];
+        %tmp.8 = lgetv %app.1;
+        symbol [ app %tmp.8 34 27 30 ];
+        symbol [ getSesTotal %tmp.9 34 31 42 ];
+        %tmp.9 = getv function %tmp.8 :getSesTotal;
+        %tmp.10 = invoke %tmp.8 %tmp.9();
+        lputv %currentTotal.3 %tmp.10;
+        symbol [ currentTotal %currentTotal.3 34 12 24 ];
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerView.mc" 35 8 ]
+        symbol [ Shots %tmp.12 35 8 13 ];
+        %tmp.12 = getv ? :Shots;
+        symbol [ setText %tmp.13 35 14 21 ];
+        %tmp.13 = getv function %tmp.12 :setText;
+        %tmp.14 = lgetv %currentMade.2;
+        symbol [ currentMade %tmp.14 35 22 33 ];
+        symbol [ toString %tmp.15 35 34 42 ];
+        %tmp.15 = getv function %tmp.14 :toString;
+        %tmp.16 = invoke %tmp.14 %tmp.15();
+        %tmp.17 = "/";
+        %tmp.18 = add %tmp.16 %tmp.17;
+        %tmp.19 = lgetv %currentTotal.3;
+        symbol [ currentTotal %tmp.19 35 53 65 ];
+        symbol [ toString %tmp.20 35 66 74 ];
+        %tmp.20 = getv function %tmp.19 :toString;
+        %tmp.21 = invoke %tmp.19 %tmp.20();
+        %tmp.22 = add %tmp.18 %tmp.21;
+        invoke %tmp.12 %tmp.13(%tmp.22);
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerView.mc" 37 8 ]
+        [ "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerView_mc_31_4_45_4_start" "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerView_mc_31_4_45_4_stop" ]
+        %overallMade.4 = local;
+        symbol [ overallMade %overallMade.4 37 12 23 ];
+        %tmp.23 = lgetv %app.1;
+        symbol [ app %tmp.23 37 26 29 ];
+        symbol [ getShots %tmp.24 37 30 38 ];
+        %tmp.24 = getv function %tmp.23 :getShots;
+        %tmp.25 = invoke %tmp.23 %tmp.24();
+        lputv %overallMade.4 %tmp.25;
+        symbol [ overallMade %overallMade.4 37 12 23 ];
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerView.mc" 38 8 ]
+        [ "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerView_mc_31_4_45_4_start" "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerView_mc_31_4_45_4_stop" ]
+        %overallTotal.5 = local;
+        symbol [ overallTotal %overallTotal.5 38 12 24 ];
+        %tmp.26 = lgetv %app.1;
+        symbol [ app %tmp.26 38 27 30 ];
+        symbol [ getTotal %tmp.27 38 31 39 ];
+        %tmp.27 = getv function %tmp.26 :getTotal;
+        %tmp.28 = invoke %tmp.26 %tmp.27();
+        lputv %overallTotal.5 %tmp.28;
+        symbol [ overallTotal %overallTotal.5 38 12 24 ];
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerView.mc" 39 8 ]
+        symbol [ TotalShots %tmp.30 39 8 18 ];
+        %tmp.30 = getv ? :TotalShots;
+        symbol [ setText %tmp.31 39 19 26 ];
+        %tmp.31 = getv function %tmp.30 :setText;
+        %tmp.32 = lgetv %overallMade.4;
+        symbol [ overallMade %tmp.32 39 27 38 ];
+        symbol [ toString %tmp.33 39 39 47 ];
+        %tmp.33 = getv function %tmp.32 :toString;
+        %tmp.34 = invoke %tmp.32 %tmp.33();
+        %tmp.35 = "/";
+        %tmp.36 = add %tmp.34 %tmp.35;
+        %tmp.37 = lgetv %overallTotal.5;
+        symbol [ overallTotal %tmp.37 39 58 70 ];
+        symbol [ toString %tmp.38 39 71 79 ];
+        %tmp.38 = getv function %tmp.37 :toString;
+        %tmp.39 = invoke %tmp.37 %tmp.38();
+        %tmp.40 = add %tmp.36 %tmp.39;
+        invoke %tmp.30 %tmp.31(%tmp.40);
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerView.mc" 41 8 ]
+        [ "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerView_mc_31_4_45_4_start" "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerView_mc_31_4_45_4_stop" ]
+        %displayTitle.6 = local;
+        symbol [ displayTitle %displayTitle.6 41 12 24 ];
+        %tmp.41 = lgetv %app.1;
+        symbol [ app %tmp.41 41 27 30 ];
+        symbol [ getSession %tmp.42 41 31 41 ];
+        %tmp.42 = getv function %tmp.41 :getSession;
+        %tmp.43 = invoke %tmp.41 %tmp.42();
+        lputv %displayTitle.6 %tmp.43;
+        symbol [ displayTitle %displayTitle.6 41 12 24 ];
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerView.mc" 42 8 ]
+        symbol [ Location %tmp.45 42 8 16 ];
+        %tmp.45 = getv ? :Location;
+        symbol [ setText %tmp.46 42 17 24 ];
+        %tmp.46 = getv function %tmp.45 :setText;
+        %tmp.47 = lgetv %displayTitle.6;
+        symbol [ displayTitle %tmp.47 42 25 37 ];
+        invoke %tmp.45 %tmp.46(%tmp.47);
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerView.mc" 44 8 ]
+        symbol [ View %tmp.49 44 8 12 ];
+        %tmp.49 = getv ? :View;
+        symbol [ onUpdate %tmp.50 44 13 21 ];
+        %tmp.50 = getv function %tmp.49 :onUpdate;
+        %tmp.51 = lgetv %dc;
+        symbol [ dc %tmp.51 44 22 24 ];
+        invoke %tmp.49 %tmp.50(%tmp.51);
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerView_mc_31_4_45_4_stop:
+    }
+    [ @file = "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerView.mc"; @line = 50; @symbol_functiondef = [onHide,50,13,19]; ]
+    function onHide() as Void {
+    }
+}
+[ @file = "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerView.mc"; @line = 1; ]
+<init> {
+}

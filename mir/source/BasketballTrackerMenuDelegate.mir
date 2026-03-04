@@ -1,0 +1,441 @@
+[ @file = "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerMenuDelegate.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerMenuDelegate.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [System,2,14,20]; ]
+import Toybox.System;
+[ @file = "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerMenuDelegate.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [WatchUi,3,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerMenuDelegate.mc"; @line = 5; @symbol_classdef = [BasketballTrackerMenuDelegate,5,6,35]; @symbol_extends<0> = [WatchUi,5,44,51]; @symbol_extends<1> = [Menu2InputDelegate,5,52,70]; ]
+class BasketballTrackerMenuDelegate extends WatchUi.Menu2InputDelegate {
+    [ @file = "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerMenuDelegate.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerMenuDelegate.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerMenuDelegate.mc"; @line = 7; @symbol_functiondef = [initialize,7,13,23]; ]
+    function initialize() as Void {
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_7_26_9_4_start:
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerMenuDelegate.mc" 8 8 ]
+        symbol [ Menu2InputDelegate %tmp.2 8 8 26 ];
+        %tmp.2 = getv ? :Menu2InputDelegate;
+        symbol [ initialize %tmp.3 8 27 37 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_7_26_9_4_stop:
+    }
+    [ @file = "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerMenuDelegate.mc"; @line = 11; @symbol_functiondef = [onSelect,11,13,21]; @symbol_param<0> = [item,11,22,26]; ]
+    function onSelect(item) {
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_12_4_78_4_start:
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerMenuDelegate.mc" 13 8 ]
+        [ "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_12_4_78_4_start" "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_12_4_78_4_stop" ]
+        %id.1 = local;
+        symbol [ id %id.1 13 12 14 ];
+        %tmp.1 = lgetv %item;
+        symbol [ item %tmp.1 13 17 21 ];
+        symbol [ getId %tmp.2 13 22 27 ];
+        %tmp.2 = getv function %tmp.1 :getId;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %id.1 %tmp.3;
+        symbol [ id %id.1 13 12 14 ];
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerMenuDelegate.mc" 14 8 ]
+        [ "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_12_4_78_4_start" "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_12_4_78_4_stop" ]
+        %app.2 = local;
+        symbol [ app %app.2 14 12 15 ];
+        symbol [ Application %tmp.5 14 18 29 ];
+        %tmp.5 = getv ? :Application;
+        symbol [ getApp %tmp.6 14 30 36 ];
+        %tmp.6 = getv function %tmp.5 :getApp;
+        %tmp.7 = invoke %tmp.5 %tmp.6();
+        lputv %app.2 %tmp.7;
+        symbol [ app %app.2 14 12 15 ];
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerMenuDelegate.mc" 16 8 ]
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_16_8_76_8_if_stmt:
+        %tmp.8 = lgetv %id.1;
+        symbol [ id %tmp.8 16 12 14 ];
+        %tmp.10 = const :exit;
+        symbol [ exit %tmp.10 16 19 23 const ];
+        %tmp.11 = eq %tmp.8 %tmp.10;
+        bf %tmp.11 @C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_16_8_76_8_if_false;
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_16_8_76_8_if_true:
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_17_8_19_8_start:
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerMenuDelegate.mc" 18 12 ]
+        symbol [ System %tmp.12 18 12 18 ];
+        %tmp.12 = getm $.Toybox.System;
+        symbol [ exit %tmp.13 18 19 23 ];
+        %tmp.13 = getv function %tmp.12 :exit;
+        invoke %tmp.12 %tmp.13();
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_17_8_19_8_stop:
+        goto @C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_16_8_76_8_if_end;
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_16_8_76_8_if_false:
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerMenuDelegate.mc" 20 13 ]
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_20_13_76_8_if_stmt:
+        %tmp.14 = lgetv %id.1;
+        symbol [ id %tmp.14 20 17 19 ];
+        %tmp.16 = const :reset;
+        symbol [ reset %tmp.16 20 24 29 const ];
+        %tmp.17 = eq %tmp.14 %tmp.16;
+        bf %tmp.17 @C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_20_13_76_8_if_false;
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_20_13_76_8_if_true:
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_21_8_23_8_start:
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerMenuDelegate.mc" 22 12 ]
+        %tmp.18 = lgetv %app.2;
+        symbol [ app %tmp.18 22 12 15 ];
+        symbol [ reset %tmp.19 22 16 21 ];
+        %tmp.19 = getv function %tmp.18 :reset;
+        invoke %tmp.18 %tmp.19();
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_21_8_23_8_stop:
+        goto @C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_20_13_76_8_if_end;
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_20_13_76_8_if_false:
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerMenuDelegate.mc" 24 13 ]
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_24_13_76_8_if_stmt:
+        %tmp.20 = lgetv %id.1;
+        symbol [ id %tmp.20 24 16 18 ];
+        %tmp.22 = const :undoMake;
+        symbol [ undoMake %tmp.22 24 23 31 const ];
+        %tmp.23 = eq %tmp.20 %tmp.22;
+        bf %tmp.23 @C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_24_13_76_8_if_false;
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_24_13_76_8_if_true:
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_25_8_27_8_start:
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerMenuDelegate.mc" 26 12 ]
+        %tmp.24 = lgetv %app.2;
+        symbol [ app %tmp.24 26 12 15 ];
+        symbol [ undoMake %tmp.25 26 16 24 ];
+        %tmp.25 = getv function %tmp.24 :undoMake;
+        invoke %tmp.24 %tmp.25();
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_25_8_27_8_stop:
+        goto @C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_24_13_76_8_if_end;
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_24_13_76_8_if_false:
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerMenuDelegate.mc" 28 13 ]
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_28_13_76_8_if_stmt:
+        %tmp.26 = lgetv %id.1;
+        symbol [ id %tmp.26 28 16 18 ];
+        %tmp.28 = const :undoMiss;
+        symbol [ undoMiss %tmp.28 28 23 31 const ];
+        %tmp.29 = eq %tmp.26 %tmp.28;
+        bf %tmp.29 @C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_28_13_76_8_if_false;
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_28_13_76_8_if_true:
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_29_8_31_8_start:
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerMenuDelegate.mc" 30 12 ]
+        %tmp.30 = lgetv %app.2;
+        symbol [ app %tmp.30 30 12 15 ];
+        symbol [ undoMiss %tmp.31 30 16 24 ];
+        %tmp.31 = getv function %tmp.30 :undoMiss;
+        invoke %tmp.30 %tmp.31();
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_29_8_31_8_stop:
+        goto @C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_28_13_76_8_if_end;
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_28_13_76_8_if_false:
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerMenuDelegate.mc" 32 13 ]
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_32_13_76_8_if_stmt:
+        %tmp.32 = lgetv %id.1;
+        symbol [ id %tmp.32 32 16 18 ];
+        %tmp.34 = const :sessions;
+        symbol [ sessions %tmp.34 32 23 31 const ];
+        %tmp.35 = eq %tmp.32 %tmp.34;
+        bf %tmp.35 @C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_32_13_76_8_if_false;
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_32_13_76_8_if_true:
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_33_8_45_8_start:
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerMenuDelegate.mc" 34 12 ]
+        [ "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_33_8_45_8_start" "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_33_8_45_8_stop" ]
+        %sessionMenu.3 = local;
+        symbol [ sessionMenu %sessionMenu.3 34 16 27 ];
+        symbol [ WatchUi %tmp.38 34 34 41 ];
+        %tmp.38 = getm $.Toybox.WatchUi;
+        symbol [ Menu %tmp.39 34 42 46 ];
+        %tmp.39 = getv function ? %tmp.38 :Menu;
+        %tmp.36 = newc %tmp.39 ();
+        lputv %sessionMenu.3 %tmp.36;
+        symbol [ sessionMenu %sessionMenu.3 34 16 27 ];
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerMenuDelegate.mc" 35 12 ]
+        %tmp.40 = lgetv %sessionMenu.3;
+        symbol [ sessionMenu %tmp.40 35 12 23 ];
+        symbol [ addItem %tmp.41 35 24 31 ];
+        %tmp.41 = getv function %tmp.40 :addItem;
+        %tmp.42 = "Free Throw";
+        %tmp.44 = const :ft;
+        symbol [ ft %tmp.44 35 47 49 const ];
+        invoke %tmp.40 %tmp.41(%tmp.42, %tmp.44);
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerMenuDelegate.mc" 36 12 ]
+        %tmp.45 = lgetv %sessionMenu.3;
+        symbol [ sessionMenu %tmp.45 36 12 23 ];
+        symbol [ addItem %tmp.46 36 24 31 ];
+        %tmp.46 = getv function %tmp.45 :addItem;
+        %tmp.47 = "Right Baseline";
+        %tmp.49 = const :rbl;
+        symbol [ rbl %tmp.49 36 51 54 const ];
+        invoke %tmp.45 %tmp.46(%tmp.47, %tmp.49);
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerMenuDelegate.mc" 37 12 ]
+        %tmp.50 = lgetv %sessionMenu.3;
+        symbol [ sessionMenu %tmp.50 37 12 23 ];
+        symbol [ addItem %tmp.51 37 24 31 ];
+        %tmp.51 = getv function %tmp.50 :addItem;
+        %tmp.52 = "Left Baseline";
+        %tmp.54 = const :lbl;
+        symbol [ lbl %tmp.54 37 50 53 const ];
+        invoke %tmp.50 %tmp.51(%tmp.52, %tmp.54);
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerMenuDelegate.mc" 38 12 ]
+        %tmp.55 = lgetv %sessionMenu.3;
+        symbol [ sessionMenu %tmp.55 38 12 23 ];
+        symbol [ addItem %tmp.56 38 24 31 ];
+        %tmp.56 = getv function %tmp.55 :addItem;
+        %tmp.57 = "Top Key";
+        %tmp.59 = const :tk;
+        symbol [ tk %tmp.59 38 44 46 const ];
+        invoke %tmp.55 %tmp.56(%tmp.57, %tmp.59);
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerMenuDelegate.mc" 39 12 ]
+        %tmp.60 = lgetv %sessionMenu.3;
+        symbol [ sessionMenu %tmp.60 39 12 23 ];
+        symbol [ addItem %tmp.61 39 24 31 ];
+        %tmp.61 = getv function %tmp.60 :addItem;
+        %tmp.62 = "Right Wing";
+        %tmp.64 = const :rw;
+        symbol [ rw %tmp.64 39 47 49 const ];
+        invoke %tmp.60 %tmp.61(%tmp.62, %tmp.64);
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerMenuDelegate.mc" 40 12 ]
+        %tmp.65 = lgetv %sessionMenu.3;
+        symbol [ sessionMenu %tmp.65 40 12 23 ];
+        symbol [ addItem %tmp.66 40 24 31 ];
+        %tmp.66 = getv function %tmp.65 :addItem;
+        %tmp.67 = "Left Wing";
+        %tmp.69 = const :lw;
+        symbol [ lw %tmp.69 40 46 48 const ];
+        invoke %tmp.65 %tmp.66(%tmp.67, %tmp.69);
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerMenuDelegate.mc" 41 12 ]
+        %tmp.70 = lgetv %sessionMenu.3;
+        symbol [ sessionMenu %tmp.70 41 12 23 ];
+        symbol [ addItem %tmp.71 41 24 31 ];
+        %tmp.71 = getv function %tmp.70 :addItem;
+        %tmp.72 = "Right Corner";
+        %tmp.74 = const :rc;
+        symbol [ rc %tmp.74 41 49 51 const ];
+        invoke %tmp.70 %tmp.71(%tmp.72, %tmp.74);
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerMenuDelegate.mc" 42 12 ]
+        %tmp.75 = lgetv %sessionMenu.3;
+        symbol [ sessionMenu %tmp.75 42 12 23 ];
+        symbol [ addItem %tmp.76 42 24 31 ];
+        %tmp.76 = getv function %tmp.75 :addItem;
+        %tmp.77 = "Left Corner";
+        %tmp.79 = const :lc;
+        symbol [ lc %tmp.79 42 48 50 const ];
+        invoke %tmp.75 %tmp.76(%tmp.77, %tmp.79);
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerMenuDelegate.mc" 44 12 ]
+        symbol [ WatchUi %tmp.80 44 12 19 ];
+        %tmp.80 = getm $.Toybox.WatchUi;
+        symbol [ pushView %tmp.81 44 20 28 ];
+        %tmp.81 = getv function %tmp.80 :pushView;
+        %tmp.82 = lgetv %sessionMenu.3;
+        symbol [ sessionMenu %tmp.82 44 29 40 ];
+        symbol [ SessionMenuDelegate %tmp.86 44 46 65 ];
+        %tmp.86 = getv ? :SessionMenuDelegate;
+        %tmp.83 = newc %tmp.86 ();
+        symbol [ WatchUi %tmp.87 44 69 76 ];
+        %tmp.87 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_LEFT %tmp.88 44 77 87 ];
+        %tmp.88 = getv %tmp.87 :SLIDE_LEFT;
+        invoke %tmp.80 %tmp.81(%tmp.82, %tmp.83, %tmp.88);
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_33_8_45_8_stop:
+        goto @C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_32_13_76_8_if_end;
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_32_13_76_8_if_false:
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerMenuDelegate.mc" 46 13 ]
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_46_13_76_8_if_stmt:
+        %tmp.89 = lgetv %id.1;
+        symbol [ id %tmp.89 46 17 19 ];
+        %tmp.91 = const :stats;
+        symbol [ stats %tmp.91 46 24 29 const ];
+        %tmp.92 = eq %tmp.89 %tmp.91;
+        bf %tmp.92 @C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_46_13_76_8_if_end;
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_46_13_76_8_if_true:
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_47_8_76_8_start:
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerMenuDelegate.mc" 48 12 ]
+        %tmp.93 = lgetv %app.2;
+        symbol [ app %tmp.93 48 12 15 ];
+        symbol [ saveSession %tmp.94 48 16 27 ];
+        %tmp.94 = getv function %tmp.93 :saveSession;
+        invoke %tmp.93 %tmp.94();
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerMenuDelegate.mc" 49 12 ]
+        [ "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_47_8_76_8_start" "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_47_8_76_8_stop" ]
+        %sessions.4 = local;
+        symbol [ sessions %sessions.4 49 16 24 ];
+        %tmp.95 = lgetv %app.2;
+        symbol [ app %tmp.95 49 27 30 ];
+        symbol [ getAllSessions %tmp.96 49 31 45 ];
+        %tmp.96 = getv function %tmp.95 :getAllSessions;
+        %tmp.97 = invoke %tmp.95 %tmp.96();
+        lputv %sessions.4 %tmp.97;
+        symbol [ sessions %sessions.4 49 16 24 ];
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerMenuDelegate.mc" 52 12 ]
+        [ "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_47_8_76_8_start" "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_47_8_76_8_stop" ]
+        %customMenu.5 = local;
+        symbol [ customMenu %customMenu.5 52 16 26 ];
+        symbol [ WatchUi %tmp.100 52 33 40 ];
+        %tmp.100 = getm $.Toybox.WatchUi;
+        symbol [ CustomMenu %tmp.101 52 41 51 ];
+        %tmp.101 = getv function ? %tmp.100 :CustomMenu;
+        %tmp.102 = 60;
+        symbol [ Graphics %tmp.104 52 56 64 ];
+        %tmp.104 = getv ? :Graphics;
+        symbol [ COLOR_WHITE %tmp.105 52 65 76 ];
+        %tmp.105 = getv %tmp.104 :COLOR_WHITE;
+        %tmp.106 = newd 1;
+        %tmp.108 = const :title;
+        symbol [ title %tmp.108 53 17 22 const ];
+        symbol [ WatchUi %tmp.111 53 30 37 ];
+        %tmp.111 = getm $.Toybox.WatchUi;
+        symbol [ Text %tmp.112 53 38 42 ];
+        %tmp.112 = getv function ? %tmp.111 :Text;
+        %tmp.113 = newd 3;
+        %tmp.115 = const :text;
+        symbol [ text %tmp.115 54 21 25 const ];
+        %tmp.116 = "History";
+        %tmp.117 = dup %tmp.113;
+        %tmp.118 = aputv %tmp.117 %tmp.115 %tmp.116;
+        %tmp.120 = const :color;
+        symbol [ color %tmp.120 55 21 26 const ];
+        symbol [ Graphics %tmp.122 55 30 38 ];
+        %tmp.122 = getv ? :Graphics;
+        symbol [ COLOR_YELLOW %tmp.123 55 39 51 ];
+        %tmp.123 = getv %tmp.122 :COLOR_YELLOW;
+        %tmp.124 = dup %tmp.118;
+        %tmp.125 = aputv %tmp.124 %tmp.120 %tmp.123;
+        %tmp.127 = const :justification;
+        symbol [ justification %tmp.127 56 21 34 const ];
+        symbol [ Graphics %tmp.129 56 38 46 ];
+        %tmp.129 = getv ? :Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.130 56 47 66 ];
+        %tmp.130 = getv %tmp.129 :TEXT_JUSTIFY_CENTER;
+        %tmp.131 = dup %tmp.125;
+        %tmp.132 = aputv %tmp.131 %tmp.127 %tmp.130;
+        %tmp.109 = newc %tmp.112 (%tmp.132);
+        %tmp.133 = dup %tmp.106;
+        %tmp.134 = aputv %tmp.133 %tmp.108 %tmp.109;
+        %tmp.98 = newc %tmp.101 (%tmp.102, %tmp.105, %tmp.134);
+        lputv %customMenu.5 %tmp.98;
+        symbol [ customMenu %customMenu.5 52 16 26 ];
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerMenuDelegate.mc" 60 12 ]
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_60_12_72_12_if_stmt:
+        %tmp.135 = lgetv %sessions.4;
+        symbol [ sessions %tmp.135 60 16 24 ];
+        symbol [ size %tmp.136 60 25 29 ];
+        %tmp.136 = getv function %tmp.135 :size;
+        %tmp.137 = invoke %tmp.135 %tmp.136();
+        %tmp.138 = 0;
+        %tmp.139 = eq %tmp.137 %tmp.138;
+        bf %tmp.139 @C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_60_12_72_12_if_else_false;
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_60_12_72_12_if_true:
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_61_12_63_12_start:
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerMenuDelegate.mc" 62 16 ]
+        %tmp.140 = lgetv %customMenu.5;
+        symbol [ customMenu %tmp.140 62 16 26 ];
+        symbol [ addItem %tmp.141 62 27 34 ];
+        %tmp.141 = getv function %tmp.140 :addItem;
+        symbol [ SessionItem %tmp.145 62 39 50 ];
+        %tmp.145 = getv ? :SessionItem;
+        %tmp.147 = const :none;
+        symbol [ none %tmp.147 62 52 56 const ];
+        %tmp.148 = "No Data";
+        %tmp.149 = "0";
+        %tmp.150 = "0";
+        %tmp.142 = newc %tmp.145 (%tmp.147, %tmp.148, %tmp.149, %tmp.150);
+        invoke %tmp.140 %tmp.141(%tmp.142);
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_61_12_63_12_stop:
+        goto @C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_60_12_72_12_if_end;
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_60_12_72_12_if_else_false:
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_65_12_72_12_start:
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerMenuDelegate.mc" 66 16 ]
+        for @C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_66_16_71_16_for_test @C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_66_16_71_16_for_incr @C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_66_16_71_16_for_end;
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_66_16_71_16_for_init:
+        [ "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_66_16_71_16_for_begin" "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_66_16_71_16_for_end" ]
+        %i.6 = local;
+        symbol [ i %i.6 66 25 26 ];
+        %tmp.151 = 0;
+        lputv %i.6 %tmp.151;
+        symbol [ i %i.6 66 25 26 ];
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_66_16_71_16_for_test:
+        %tmp.152 = lgetv %i.6;
+        symbol [ i %tmp.152 66 32 33 ];
+        %tmp.153 = lgetv %sessions.4;
+        symbol [ sessions %tmp.153 66 36 44 ];
+        symbol [ size %tmp.154 66 45 49 ];
+        %tmp.154 = getv function %tmp.153 :size;
+        %tmp.155 = invoke %tmp.153 %tmp.154();
+        %tmp.156 = lt %tmp.152 %tmp.155;
+        bf %tmp.156 @C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_66_16_71_16_for_end;
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_66_16_71_16_for_begin:
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_67_16_71_16_start:
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerMenuDelegate.mc" 68 20 ]
+        [ "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_67_16_71_16_start" "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_67_16_71_16_stop" ]
+        %s.7 = local;
+        symbol [ s %s.7 68 24 25 ];
+        %tmp.157 = lgetv %sessions.4;
+        symbol [ sessions %tmp.157 68 28 36 ];
+        %tmp.158 = lgetv %i.6;
+        symbol [ i %tmp.158 68 37 38 ];
+        %tmp.159 = agetv %tmp.157 %tmp.158;
+        lputv %s.7 %tmp.159;
+        symbol [ s %s.7 68 24 25 ];
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerMenuDelegate.mc" 70 20 ]
+        %tmp.160 = lgetv %customMenu.5;
+        symbol [ customMenu %tmp.160 70 20 30 ];
+        symbol [ addItem %tmp.161 70 31 38 ];
+        %tmp.161 = getv function %tmp.160 :addItem;
+        symbol [ SessionItem %tmp.165 70 43 54 ];
+        %tmp.165 = getv ? :SessionItem;
+        %tmp.166 = lgetv %i.6;
+        symbol [ i %tmp.166 70 55 56 ];
+        %tmp.167 = lgetv %s.7;
+        symbol [ s %tmp.167 70 58 59 ];
+        %tmp.168 = "name";
+        %tmp.169 = agetv %tmp.167 %tmp.168;
+        %tmp.170 = lgetv %s.7;
+        symbol [ s %tmp.170 70 69 70 ];
+        %tmp.171 = "made";
+        %tmp.172 = agetv %tmp.170 %tmp.171;
+        %tmp.173 = lgetv %s.7;
+        symbol [ s %tmp.173 70 80 81 ];
+        %tmp.174 = "total";
+        %tmp.175 = agetv %tmp.173 %tmp.174;
+        %tmp.162 = newc %tmp.165 (%tmp.166, %tmp.169, %tmp.172, %tmp.175);
+        invoke %tmp.160 %tmp.161(%tmp.162);
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_67_16_71_16_stop:
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_66_16_71_16_for_incr:
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerMenuDelegate.mc" 66 ]
+        %tmp.178 = lgetv %i.6;
+        symbol [ i %tmp.178 66 53 54 ];
+        %tmp.179 = add %tmp.178 1;
+        lputv %i.6 %tmp.179;
+        symbol [ i %i.6 66 53 54 ];
+        goto @C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_66_16_71_16_for_test;
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_66_16_71_16_for_end:
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_65_12_72_12_stop:
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_60_12_72_12_if_end:
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerMenuDelegate.mc" 75 12 ]
+        symbol [ WatchUi %tmp.180 75 12 19 ];
+        %tmp.180 = getm $.Toybox.WatchUi;
+        symbol [ pushView %tmp.181 75 20 28 ];
+        %tmp.181 = getv function %tmp.180 :pushView;
+        %tmp.182 = lgetv %customMenu.5;
+        symbol [ customMenu %tmp.182 75 29 39 ];
+        symbol [ WatchUi %tmp.185 75 45 52 ];
+        %tmp.185 = getm $.Toybox.WatchUi;
+        symbol [ Menu2InputDelegate %tmp.186 75 53 71 ];
+        %tmp.186 = getv function ? %tmp.185 :Menu2InputDelegate;
+        %tmp.183 = newc %tmp.186 ();
+        symbol [ WatchUi %tmp.187 75 75 82 ];
+        %tmp.187 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_UP %tmp.188 75 83 91 ];
+        %tmp.188 = getv %tmp.187 :SLIDE_UP;
+        invoke %tmp.180 %tmp.181(%tmp.182, %tmp.183, %tmp.188);
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_47_8_76_8_stop:
+        goto @C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_46_13_76_8_if_end;
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_46_13_76_8_if_end:
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_32_13_76_8_if_end:
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_28_13_76_8_if_end:
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_24_13_76_8_if_end:
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_20_13_76_8_if_end:
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_16_8_76_8_if_end:
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_BasketballTrackerMenuDelegate_mc_12_4_78_4_stop:
+    }
+}
+[ @file = "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\BasketballTrackerMenuDelegate.mc"; @line = 1; ]
+<init> {
+}

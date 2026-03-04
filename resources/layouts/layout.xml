@@ -1,0 +1,8 @@
+<layout id="MainLayout" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+    <label x="center" y="5" text="@Strings.prompt" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+    <bitmap id="id_court" x="center" y="5" filename="../drawables/court_50.png" />
+
+    <label id="Shots" x="center" y="20" text="6/9" font="Graphics.FONT_NUMBER_THAI_HOT" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+    <label id="SessionTitle" x="center" y="100" text="Warm-Up" font="Graphics.FONT_LARGE" color="Graphics.COLOR_BLACK" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+    <label id="TotalShots" x="center" y="130" text="6/9" font="Graphics.FONT_LARGE" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+</layout>

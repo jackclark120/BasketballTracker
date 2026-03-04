@@ -5,379 +5,343 @@
         <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionDisplay.mc" id="1" lineNum="5" parent="globals/SessionDisplay" pc="268435457" symbol="&lt;init&gt;"/>
         <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="2" lineNum="160" parent="globals" pc="268435476" symbol="getApp"/>
         <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="2" lineNum="161" parent="globals" pc="268435486" symbol="getApp"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionItem.mc" id="3" lineNum="4" parent="globals/SessionItem" pc="268435502" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="4" lineNum="5" parent="globals/BasketballTrackerApp" pc="268435521" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="4" lineNum="12" parent="globals/BasketballTrackerApp" pc="268435539" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerDelegate.mc" id="5" lineNum="4" parent="globals/BasketballTrackerDelegate" pc="268435554" symbol="&lt;init&gt;"/>
-        <entry filename="c:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\gen\\006-B3869-00\\source\\Rez.mcgen" id="6" lineNum="7" parent="globals/Rez" pc="268435573" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="7" lineNum="5" parent="globals/BasketballTrackerMenuDelegate" pc="268435597" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerView.mc" id="8" lineNum="4" parent="globals/BasketballTrackerView" pc="268435616" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionMenuDelegate.mc" id="9" lineNum="5" parent="globals/SessionMenuDelegate" pc="268435635" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionDisplay.mc" id="10" lineNum="7" parent="globals/SessionDisplay" pc="268435654" symbol="initialize"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionDisplay.mc" id="10" lineNum="9" parent="globals/SessionDisplay" pc="268435656" symbol="initialize"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionDisplay.mc" id="11" lineNum="12" parent="globals/SessionDisplay" pc="268435675" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionDisplay.mc" id="11" lineNum="15" parent="globals/SessionDisplay" pc="268435679" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionDisplay.mc" id="11" lineNum="16" parent="globals/SessionDisplay" pc="268435701" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionDisplay.mc" id="11" lineNum="18" parent="globals/SessionDisplay" pc="268435713" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionDisplay.mc" id="11" lineNum="19" parent="globals/SessionDisplay" pc="268435730" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionDisplay.mc" id="11" lineNum="21" parent="globals/SessionDisplay" pc="268435743" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionDisplay.mc" id="11" lineNum="22" parent="globals/SessionDisplay" pc="268435756" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionDisplay.mc" id="11" lineNum="23" parent="globals/SessionDisplay" pc="268435769" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionDisplay.mc" id="11" lineNum="24" parent="globals/SessionDisplay" pc="268435779" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionDisplay.mc" id="11" lineNum="26" parent="globals/SessionDisplay" pc="268435789" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionDisplay.mc" id="11" lineNum="27" parent="globals/SessionDisplay" pc="268435796" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionDisplay.mc" id="11" lineNum="28" parent="globals/SessionDisplay" pc="268435803" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionDisplay.mc" id="11" lineNum="30" parent="globals/SessionDisplay" pc="268435818" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionDisplay.mc" id="11" lineNum="31" parent="globals/SessionDisplay" pc="268435848" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionDisplay.mc" id="11" lineNum="33" parent="globals/SessionDisplay" pc="268435861" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionDisplay.mc" id="11" lineNum="34" parent="globals/SessionDisplay" pc="268435883" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionDisplay.mc" id="11" lineNum="35" parent="globals/SessionDisplay" pc="268435911" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionDisplay.mc" id="11" lineNum="37" parent="globals/SessionDisplay" pc="268435935" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionDisplay.mc" id="11" lineNum="39" parent="globals/SessionDisplay" pc="268435957" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionDisplay.mc" id="11" lineNum="41" parent="globals/SessionDisplay" pc="268435977" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionDisplay.mc" id="11" lineNum="45" parent="globals/SessionDisplay" pc="268436006" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionDisplay.mc" id="11" lineNum="47" parent="globals/SessionDisplay" pc="268436030" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionDisplay.mc" id="11" lineNum="48" parent="globals/SessionDisplay" pc="268436037" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionDisplay.mc" id="11" lineNum="51" parent="globals/SessionDisplay" pc="268436044" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionDisplay.mc" id="11" lineNum="53" parent="globals/SessionDisplay" pc="268436120" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionDisplay.mc" id="11" lineNum="55" parent="globals/SessionDisplay" pc="268436145" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionItem.mc" id="12" lineNum="8" parent="globals/SessionItem" pc="268436166" symbol="initialize"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionItem.mc" id="12" lineNum="10" parent="globals/SessionItem" pc="268436168" symbol="initialize"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionItem.mc" id="12" lineNum="11" parent="globals/SessionItem" pc="268436194" symbol="initialize"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionItem.mc" id="12" lineNum="12" parent="globals/SessionItem" pc="268436204" symbol="initialize"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionItem.mc" id="13" lineNum="16" parent="globals/SessionItem" pc="268436224" symbol="draw"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionItem.mc" id="13" lineNum="18" parent="globals/SessionItem" pc="268436228" symbol="draw"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionItem.mc" id="13" lineNum="19" parent="globals/SessionItem" pc="268436240" symbol="draw"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionItem.mc" id="13" lineNum="20" parent="globals/SessionItem" pc="268436259" symbol="draw"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionItem.mc" id="13" lineNum="22" parent="globals/SessionItem" pc="268436278" symbol="draw"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionItem.mc" id="13" lineNum="23" parent="globals/SessionItem" pc="268436300" symbol="draw"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionItem.mc" id="13" lineNum="24" parent="globals/SessionItem" pc="268436340" symbol="draw"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="14" lineNum="93" parent="globals/BasketballTrackerApp" pc="268436381" symbol="getShots"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="14" lineNum="95" parent="globals/BasketballTrackerApp" pc="268436383" symbol="getShots"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="15" lineNum="14" parent="globals/BasketballTrackerApp" pc="268436392" symbol="saveSession"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="15" lineNum="16" parent="globals/BasketballTrackerApp" pc="268436396" symbol="saveSession"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="15" lineNum="18" parent="globals/BasketballTrackerApp" pc="268436400" symbol="saveSession"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="15" lineNum="20" parent="globals/BasketballTrackerApp" pc="268436430" symbol="saveSession"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="15" lineNum="21" parent="globals/BasketballTrackerApp" pc="268436443" symbol="saveSession"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="15" lineNum="23" parent="globals/BasketballTrackerApp" pc="268436463" symbol="saveSession"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="15" lineNum="24" parent="globals/BasketballTrackerApp" pc="268436485" symbol="saveSession"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="15" lineNum="25" parent="globals/BasketballTrackerApp" pc="268436507" symbol="saveSession"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="15" lineNum="26" parent="globals/BasketballTrackerApp" pc="268436511" symbol="saveSession"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="15" lineNum="30" parent="globals/BasketballTrackerApp" pc="268436527" symbol="saveSession"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="15" lineNum="32" parent="globals/BasketballTrackerApp" pc="268436550" symbol="saveSession"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="15" lineNum="39" parent="globals/BasketballTrackerApp" pc="268436606" symbol="saveSession"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="16" lineNum="120" parent="globals/BasketballTrackerApp" pc="268436627" symbol="incrementMadeShots"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="16" lineNum="122" parent="globals/BasketballTrackerApp" pc="268436629" symbol="incrementMadeShots"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="16" lineNum="123" parent="globals/BasketballTrackerApp" pc="268436648" symbol="incrementMadeShots"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="16" lineNum="124" parent="globals/BasketballTrackerApp" pc="268436667" symbol="incrementMadeShots"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="16" lineNum="125" parent="globals/BasketballTrackerApp" pc="268436686" symbol="incrementMadeShots"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="16" lineNum="126" parent="globals/BasketballTrackerApp" pc="268436705" symbol="incrementMadeShots"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="16" lineNum="129" parent="globals/BasketballTrackerApp" pc="268436750" symbol="incrementMadeShots"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="17" lineNum="132" parent="globals/BasketballTrackerApp" pc="268436767" symbol="startLap"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="17" lineNum="134" parent="globals/BasketballTrackerApp" pc="268436769" symbol="startLap"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="17" lineNum="136" parent="globals/BasketballTrackerApp" pc="268436781" symbol="startLap"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="17" lineNum="137" parent="globals/BasketballTrackerApp" pc="268436794" symbol="startLap"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="17" lineNum="138" parent="globals/BasketballTrackerApp" pc="268436807" symbol="startLap"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="17" lineNum="140" parent="globals/BasketballTrackerApp" pc="268436828" symbol="startLap"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="18" lineNum="154" parent="globals/BasketballTrackerApp" pc="268436845" symbol="getInitialView"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="18" lineNum="155" parent="globals/BasketballTrackerApp" pc="268436847" symbol="getInitialView"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="19" lineNum="58" parent="globals/BasketballTrackerApp" pc="268436914" symbol="undoMake"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="19" lineNum="60" parent="globals/BasketballTrackerApp" pc="268436916" symbol="undoMake"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="19" lineNum="62" parent="globals/BasketballTrackerApp" pc="268436933" symbol="undoMake"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="19" lineNum="63" parent="globals/BasketballTrackerApp" pc="268436952" symbol="undoMake"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="19" lineNum="64" parent="globals/BasketballTrackerApp" pc="268436971" symbol="undoMake"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="19" lineNum="65" parent="globals/BasketballTrackerApp" pc="268436990" symbol="undoMake"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="20" lineNum="88" parent="globals/BasketballTrackerApp" pc="268437010" symbol="getSesTotal"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="20" lineNum="90" parent="globals/BasketballTrackerApp" pc="268437012" symbol="getSesTotal"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="22" lineNum="111" parent="globals/BasketballTrackerApp" pc="268437021" symbol="shotMissed"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="22" lineNum="113" parent="globals/BasketballTrackerApp" pc="268437023" symbol="shotMissed"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="22" lineNum="114" parent="globals/BasketballTrackerApp" pc="268437042" symbol="shotMissed"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="22" lineNum="115" parent="globals/BasketballTrackerApp" pc="268437061" symbol="shotMissed"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="22" lineNum="117" parent="globals/BasketballTrackerApp" pc="268437106" symbol="shotMissed"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="23" lineNum="83" parent="globals/BasketballTrackerApp" pc="268437123" symbol="getSesShots"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="23" lineNum="85" parent="globals/BasketballTrackerApp" pc="268437125" symbol="getSesShots"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="24" lineNum="103" parent="globals/BasketballTrackerApp" pc="268437134" symbol="reset"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="24" lineNum="105" parent="globals/BasketballTrackerApp" pc="268437136" symbol="reset"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="24" lineNum="106" parent="globals/BasketballTrackerApp" pc="268437149" symbol="reset"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="24" lineNum="107" parent="globals/BasketballTrackerApp" pc="268437162" symbol="reset"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="24" lineNum="108" parent="globals/BasketballTrackerApp" pc="268437175" symbol="reset"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="25" lineNum="43" parent="globals/BasketballTrackerApp" pc="268437189" symbol="getAllSessions"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="25" lineNum="45" parent="globals/BasketballTrackerApp" pc="268437191" symbol="getAllSessions"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="26" lineNum="98" parent="globals/BasketballTrackerApp" pc="268437200" symbol="getTotal"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="26" lineNum="100" parent="globals/BasketballTrackerApp" pc="268437202" symbol="getTotal"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="27" lineNum="48" parent="globals/BasketballTrackerApp" pc="268437211" symbol="setSession"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="27" lineNum="50" parent="globals/BasketballTrackerApp" pc="268437213" symbol="setSession"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="28" lineNum="78" parent="globals/BasketballTrackerApp" pc="268437224" symbol="initialize"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="28" lineNum="80" parent="globals/BasketballTrackerApp" pc="268437226" symbol="initialize"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="29" lineNum="69" parent="globals/BasketballTrackerApp" pc="268437245" symbol="undoMiss"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="29" lineNum="71" parent="globals/BasketballTrackerApp" pc="268437247" symbol="undoMiss"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="29" lineNum="73" parent="globals/BasketballTrackerApp" pc="268437264" symbol="undoMiss"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="29" lineNum="74" parent="globals/BasketballTrackerApp" pc="268437283" symbol="undoMiss"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="30" lineNum="53" parent="globals/BasketballTrackerApp" pc="268437303" symbol="getSession"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="30" lineNum="55" parent="globals/BasketballTrackerApp" pc="268437305" symbol="getSession"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerDelegate.mc" id="32" lineNum="34" parent="globals/BasketballTrackerDelegate" pc="268437314" symbol="onBack"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerDelegate.mc" id="32" lineNum="36" parent="globals/BasketballTrackerDelegate" pc="268437318" symbol="onBack"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerDelegate.mc" id="32" lineNum="38" parent="globals/BasketballTrackerDelegate" pc="268437335" symbol="onBack"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerDelegate.mc" id="32" lineNum="40" parent="globals/BasketballTrackerDelegate" pc="268437347" symbol="onBack"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerDelegate.mc" id="33" lineNum="10" parent="globals/BasketballTrackerDelegate" pc="268437350" symbol="onMenu"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerDelegate.mc" id="33" lineNum="12" parent="globals/BasketballTrackerDelegate" pc="268437354" symbol="onMenu"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerDelegate.mc" id="33" lineNum="13" parent="globals/BasketballTrackerDelegate" pc="268437401" symbol="onMenu"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerDelegate.mc" id="33" lineNum="14" parent="globals/BasketballTrackerDelegate" pc="268437451" symbol="onMenu"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerDelegate.mc" id="33" lineNum="15" parent="globals/BasketballTrackerDelegate" pc="268437501" symbol="onMenu"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerDelegate.mc" id="33" lineNum="16" parent="globals/BasketballTrackerDelegate" pc="268437551" symbol="onMenu"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerDelegate.mc" id="33" lineNum="17" parent="globals/BasketballTrackerDelegate" pc="268437601" symbol="onMenu"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerDelegate.mc" id="33" lineNum="18" parent="globals/BasketballTrackerDelegate" pc="268437651" symbol="onMenu"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerDelegate.mc" id="33" lineNum="21" parent="globals/BasketballTrackerDelegate" pc="268437701" symbol="onMenu"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerDelegate.mc" id="33" lineNum="22" parent="globals/BasketballTrackerDelegate" pc="268437746" symbol="onMenu"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerDelegate.mc" id="34" lineNum="6" parent="globals/BasketballTrackerDelegate" pc="268437749" symbol="initialize"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerDelegate.mc" id="34" lineNum="7" parent="globals/BasketballTrackerDelegate" pc="268437751" symbol="initialize"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerDelegate.mc" id="35" lineNum="25" parent="globals/BasketballTrackerDelegate" pc="268437770" symbol="onSelect"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerDelegate.mc" id="35" lineNum="27" parent="globals/BasketballTrackerDelegate" pc="268437774" symbol="onSelect"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerDelegate.mc" id="35" lineNum="29" parent="globals/BasketballTrackerDelegate" pc="268437791" symbol="onSelect"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerDelegate.mc" id="35" lineNum="31" parent="globals/BasketballTrackerDelegate" pc="268437803" symbol="onSelect"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerDelegate.mc" id="36" lineNum="43" parent="globals/BasketballTrackerDelegate" pc="268437806" symbol="onNextPage"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerDelegate.mc" id="36" lineNum="45" parent="globals/BasketballTrackerDelegate" pc="268437810" symbol="onNextPage"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerDelegate.mc" id="36" lineNum="47" parent="globals/BasketballTrackerDelegate" pc="268437827" symbol="onNextPage"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerDelegate.mc" id="36" lineNum="49" parent="globals/BasketballTrackerDelegate" pc="268437839" symbol="onNextPage"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="37" lineNum="7" parent="globals/BasketballTrackerMenuDelegate" pc="268437842" symbol="initialize"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="37" lineNum="8" parent="globals/BasketballTrackerMenuDelegate" pc="268437844" symbol="initialize"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="38" lineNum="11" parent="globals/BasketballTrackerMenuDelegate" pc="268437863" symbol="onSelect"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="38" lineNum="13" parent="globals/BasketballTrackerMenuDelegate" pc="268437867" symbol="onSelect"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="38" lineNum="14" parent="globals/BasketballTrackerMenuDelegate" pc="268437880" symbol="onSelect"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="38" lineNum="16" parent="globals/BasketballTrackerMenuDelegate" pc="268437897" symbol="onSelect"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="38" lineNum="18" parent="globals/BasketballTrackerMenuDelegate" pc="268437908" symbol="onSelect"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="38" lineNum="20" parent="globals/BasketballTrackerMenuDelegate" pc="268437925" symbol="onSelect"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="38" lineNum="22" parent="globals/BasketballTrackerMenuDelegate" pc="268437936" symbol="onSelect"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="38" lineNum="24" parent="globals/BasketballTrackerMenuDelegate" pc="268437949" symbol="onSelect"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="38" lineNum="26" parent="globals/BasketballTrackerMenuDelegate" pc="268437960" symbol="onSelect"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="38" lineNum="28" parent="globals/BasketballTrackerMenuDelegate" pc="268437973" symbol="onSelect"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="38" lineNum="30" parent="globals/BasketballTrackerMenuDelegate" pc="268437984" symbol="onSelect"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="38" lineNum="32" parent="globals/BasketballTrackerMenuDelegate" pc="268437997" symbol="onSelect"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="38" lineNum="34" parent="globals/BasketballTrackerMenuDelegate" pc="268438008" symbol="onSelect"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="38" lineNum="35" parent="globals/BasketballTrackerMenuDelegate" pc="268438036" symbol="onSelect"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="38" lineNum="36" parent="globals/BasketballTrackerMenuDelegate" pc="268438058" symbol="onSelect"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="38" lineNum="37" parent="globals/BasketballTrackerMenuDelegate" pc="268438080" symbol="onSelect"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="38" lineNum="38" parent="globals/BasketballTrackerMenuDelegate" pc="268438102" symbol="onSelect"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="38" lineNum="39" parent="globals/BasketballTrackerMenuDelegate" pc="268438124" symbol="onSelect"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="38" lineNum="40" parent="globals/BasketballTrackerMenuDelegate" pc="268438146" symbol="onSelect"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="38" lineNum="41" parent="globals/BasketballTrackerMenuDelegate" pc="268438168" symbol="onSelect"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="38" lineNum="42" parent="globals/BasketballTrackerMenuDelegate" pc="268438190" symbol="onSelect"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="38" lineNum="44" parent="globals/BasketballTrackerMenuDelegate" pc="268438212" symbol="onSelect"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="38" lineNum="46" parent="globals/BasketballTrackerMenuDelegate" pc="268438258" symbol="onSelect"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="38" lineNum="48" parent="globals/BasketballTrackerMenuDelegate" pc="268438269" symbol="onSelect"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="38" lineNum="49" parent="globals/BasketballTrackerMenuDelegate" pc="268438281" symbol="onSelect"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="38" lineNum="52" parent="globals/BasketballTrackerMenuDelegate" pc="268438294" symbol="onSelect"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="38" lineNum="60" parent="globals/BasketballTrackerMenuDelegate" pc="268438417" symbol="onSelect"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="38" lineNum="62" parent="globals/BasketballTrackerMenuDelegate" pc="268438437" symbol="onSelect"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="38" lineNum="66" parent="globals/BasketballTrackerMenuDelegate" pc="268438494" symbol="onSelect"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="38" lineNum="68" parent="globals/BasketballTrackerMenuDelegate" pc="268438518" symbol="onSelect"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="38" lineNum="70" parent="globals/BasketballTrackerMenuDelegate" pc="268438525" symbol="onSelect"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="38" lineNum="75" parent="globals/BasketballTrackerMenuDelegate" pc="268438598" symbol="onSelect"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerView.mc" id="39" lineNum="22" parent="globals/BasketballTrackerView" pc="268438648" symbol="onShow"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerView.mc" id="39" lineNum="24" parent="globals/BasketballTrackerView" pc="268438650" symbol="onShow"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerView.mc" id="39" lineNum="25" parent="globals/BasketballTrackerView" pc="268438680" symbol="onShow"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerView.mc" id="39" lineNum="26" parent="globals/BasketballTrackerView" pc="268438710" symbol="onShow"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerView.mc" id="40" lineNum="15" parent="globals/BasketballTrackerView" pc="268438741" symbol="onLayout"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerView.mc" id="40" lineNum="16" parent="globals/BasketballTrackerView" pc="268438743" symbol="onLayout"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerView.mc" id="41" lineNum="10" parent="globals/BasketballTrackerView" pc="268438785" symbol="initialize"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerView.mc" id="41" lineNum="11" parent="globals/BasketballTrackerView" pc="268438787" symbol="initialize"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerView.mc" id="43" lineNum="30" parent="globals/BasketballTrackerView" pc="268438806" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerView.mc" id="43" lineNum="32" parent="globals/BasketballTrackerView" pc="268438810" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerView.mc" id="43" lineNum="33" parent="globals/BasketballTrackerView" pc="268438827" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerView.mc" id="43" lineNum="34" parent="globals/BasketballTrackerView" pc="268438840" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerView.mc" id="43" lineNum="35" parent="globals/BasketballTrackerView" pc="268438853" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerView.mc" id="43" lineNum="37" parent="globals/BasketballTrackerView" pc="268438900" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerView.mc" id="43" lineNum="38" parent="globals/BasketballTrackerView" pc="268438913" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerView.mc" id="43" lineNum="39" parent="globals/BasketballTrackerView" pc="268438926" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerView.mc" id="43" lineNum="41" parent="globals/BasketballTrackerView" pc="268438973" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerView.mc" id="43" lineNum="42" parent="globals/BasketballTrackerView" pc="268438986" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerView.mc" id="43" lineNum="44" parent="globals/BasketballTrackerView" pc="268439006" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionMenuDelegate.mc" id="44" lineNum="12" parent="globals/SessionMenuDelegate" pc="268439027" symbol="onMenuItem"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionMenuDelegate.mc" id="44" lineNum="14" parent="globals/SessionMenuDelegate" pc="268439031" symbol="onMenuItem"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionMenuDelegate.mc" id="44" lineNum="15" parent="globals/SessionMenuDelegate" pc="268439048" symbol="onMenuItem"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionMenuDelegate.mc" id="44" lineNum="17" parent="globals/SessionMenuDelegate" pc="268439055" symbol="onMenuItem"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionMenuDelegate.mc" id="44" lineNum="19" parent="globals/SessionMenuDelegate" pc="268439066" symbol="onMenuItem"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionMenuDelegate.mc" id="44" lineNum="21" parent="globals/SessionMenuDelegate" pc="268439076" symbol="onMenuItem"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionMenuDelegate.mc" id="44" lineNum="23" parent="globals/SessionMenuDelegate" pc="268439087" symbol="onMenuItem"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionMenuDelegate.mc" id="44" lineNum="25" parent="globals/SessionMenuDelegate" pc="268439097" symbol="onMenuItem"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionMenuDelegate.mc" id="44" lineNum="27" parent="globals/SessionMenuDelegate" pc="268439108" symbol="onMenuItem"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionMenuDelegate.mc" id="44" lineNum="29" parent="globals/SessionMenuDelegate" pc="268439118" symbol="onMenuItem"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionMenuDelegate.mc" id="44" lineNum="31" parent="globals/SessionMenuDelegate" pc="268439129" symbol="onMenuItem"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionMenuDelegate.mc" id="44" lineNum="33" parent="globals/SessionMenuDelegate" pc="268439139" symbol="onMenuItem"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionMenuDelegate.mc" id="44" lineNum="35" parent="globals/SessionMenuDelegate" pc="268439150" symbol="onMenuItem"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionMenuDelegate.mc" id="44" lineNum="37" parent="globals/SessionMenuDelegate" pc="268439160" symbol="onMenuItem"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionMenuDelegate.mc" id="44" lineNum="39" parent="globals/SessionMenuDelegate" pc="268439171" symbol="onMenuItem"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionMenuDelegate.mc" id="44" lineNum="41" parent="globals/SessionMenuDelegate" pc="268439181" symbol="onMenuItem"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionMenuDelegate.mc" id="44" lineNum="43" parent="globals/SessionMenuDelegate" pc="268439192" symbol="onMenuItem"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionMenuDelegate.mc" id="44" lineNum="45" parent="globals/SessionMenuDelegate" pc="268439202" symbol="onMenuItem"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionMenuDelegate.mc" id="44" lineNum="47" parent="globals/SessionMenuDelegate" pc="268439213" symbol="onMenuItem"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionMenuDelegate.mc" id="44" lineNum="50" parent="globals/SessionMenuDelegate" pc="268439220" symbol="onMenuItem"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionMenuDelegate.mc" id="44" lineNum="51" parent="globals/SessionMenuDelegate" pc="268439232" symbol="onMenuItem"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionMenuDelegate.mc" id="44" lineNum="52" parent="globals/SessionMenuDelegate" pc="268439246" symbol="onMenuItem"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionMenuDelegate.mc" id="45" lineNum="7" parent="globals/SessionMenuDelegate" pc="268439268" symbol="initialize"/>
-        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionMenuDelegate.mc" id="45" lineNum="9" parent="globals/SessionMenuDelegate" pc="268439270" symbol="initialize"/>
-        <entry filename="c:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\gen\\006-B3869-00\\source\\Rez.mcgen" id="46" lineNum="14" parent="globals/Rez/Layouts" pc="268439289" symbol="MainLayout"/>
-        <entry filename="c:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\gen\\006-B3869-00\\source\\Rez.mcgen" id="46" lineNum="15" parent="globals/Rez/Layouts" pc="268439301" symbol="MainLayout"/>
-        <entry filename="c:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\gen\\006-B3869-00\\source\\Rez.mcgen" id="46" lineNum="17" parent="globals/Rez/Layouts" pc="268439314" symbol="MainLayout"/>
-        <entry filename="c:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\gen\\006-B3869-00\\source\\Rez.mcgen" id="46" lineNum="19" parent="globals/Rez/Layouts" pc="268439448" symbol="MainLayout"/>
-        <entry filename="c:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\gen\\006-B3869-00\\source\\Rez.mcgen" id="46" lineNum="20" parent="globals/Rez/Layouts" pc="268439553" symbol="MainLayout"/>
-        <entry filename="c:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\gen\\006-B3869-00\\source\\Rez.mcgen" id="46" lineNum="22" parent="globals/Rez/Layouts" pc="268439590" symbol="MainLayout"/>
-        <entry filename="c:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\gen\\006-B3869-00\\source\\Rez.mcgen" id="46" lineNum="24" parent="globals/Rez/Layouts" pc="268439718" symbol="MainLayout"/>
-        <entry filename="c:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\gen\\006-B3869-00\\source\\Rez.mcgen" id="46" lineNum="26" parent="globals/Rez/Layouts" pc="268439846" symbol="MainLayout"/>
-        <entry filename="c:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\gen\\006-B3869-00\\source\\Rez.mcgen" id="46" lineNum="28" parent="globals/Rez/Layouts" pc="268439974" symbol="MainLayout"/>
-        <entry filename="c:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\gen\\006-B3869-00\\source\\Rez.mcgen" id="47" lineNum="33" parent="globals/Rez/Menus/MainMenu" pc="268440031" symbol="&lt;init&gt;"/>
-        <entry filename="c:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\gen\\006-B3869-00\\source\\Rez.mcgen" id="48" lineNum="34" parent="globals/Rez/Menus/MainMenu" pc="268440050" symbol="initialize"/>
-        <entry filename="c:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\gen\\006-B3869-00\\source\\Rez.mcgen" id="48" lineNum="35" parent="globals/Rez/Menus/MainMenu" pc="268440052" symbol="initialize"/>
-        <entry filename="c:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\gen\\006-B3869-00\\source\\Rez.mcgen" id="48" lineNum="36" parent="globals/Rez/Menus/MainMenu" pc="268440070" symbol="initialize"/>
-        <entry filename="c:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\gen\\006-B3869-00\\source\\Rez.mcgen" id="48" lineNum="37" parent="globals/Rez/Menus/MainMenu" pc="268440126" symbol="initialize"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="3" lineNum="5" parent="globals/BasketballTrackerApp" pc="268435502" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="3" lineNum="12" parent="globals/BasketballTrackerApp" pc="268435520" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerDelegate.mc" id="4" lineNum="4" parent="globals/BasketballTrackerDelegate" pc="268435535" symbol="&lt;init&gt;"/>
+        <entry filename="c:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\gen\\006-B3869-00\\source\\Rez.mcgen" id="5" lineNum="7" parent="globals/Rez" pc="268435554" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="6" lineNum="5" parent="globals/BasketballTrackerMenuDelegate" pc="268435578" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerView.mc" id="7" lineNum="4" parent="globals/BasketballTrackerView" pc="268435597" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionMenuDelegate.mc" id="8" lineNum="5" parent="globals/SessionMenuDelegate" pc="268435616" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionDisplay.mc" id="9" lineNum="7" parent="globals/SessionDisplay" pc="268435635" symbol="initialize"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionDisplay.mc" id="9" lineNum="9" parent="globals/SessionDisplay" pc="268435637" symbol="initialize"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionDisplay.mc" id="10" lineNum="12" parent="globals/SessionDisplay" pc="268435656" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionDisplay.mc" id="10" lineNum="15" parent="globals/SessionDisplay" pc="268435660" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionDisplay.mc" id="10" lineNum="16" parent="globals/SessionDisplay" pc="268435682" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionDisplay.mc" id="10" lineNum="18" parent="globals/SessionDisplay" pc="268435694" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionDisplay.mc" id="10" lineNum="19" parent="globals/SessionDisplay" pc="268435711" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionDisplay.mc" id="10" lineNum="21" parent="globals/SessionDisplay" pc="268435724" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionDisplay.mc" id="10" lineNum="22" parent="globals/SessionDisplay" pc="268435743" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionDisplay.mc" id="10" lineNum="24" parent="globals/SessionDisplay" pc="268435762" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionDisplay.mc" id="10" lineNum="25" parent="globals/SessionDisplay" pc="268435769" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionDisplay.mc" id="10" lineNum="26" parent="globals/SessionDisplay" pc="268435776" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionDisplay.mc" id="10" lineNum="28" parent="globals/SessionDisplay" pc="268435791" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionDisplay.mc" id="10" lineNum="29" parent="globals/SessionDisplay" pc="268435798" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionDisplay.mc" id="10" lineNum="30" parent="globals/SessionDisplay" pc="268435820" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionDisplay.mc" id="10" lineNum="32" parent="globals/SessionDisplay" pc="268435848" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionDisplay.mc" id="10" lineNum="34" parent="globals/SessionDisplay" pc="268435872" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionDisplay.mc" id="10" lineNum="36" parent="globals/SessionDisplay" pc="268435894" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionDisplay.mc" id="10" lineNum="38" parent="globals/SessionDisplay" pc="268435920" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionDisplay.mc" id="10" lineNum="42" parent="globals/SessionDisplay" pc="268435949" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionDisplay.mc" id="10" lineNum="44" parent="globals/SessionDisplay" pc="268435973" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionDisplay.mc" id="10" lineNum="45" parent="globals/SessionDisplay" pc="268435980" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionDisplay.mc" id="10" lineNum="47" parent="globals/SessionDisplay" pc="268435987" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionDisplay.mc" id="10" lineNum="49" parent="globals/SessionDisplay" pc="268436009" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionDisplay.mc" id="10" lineNum="50" parent="globals/SessionDisplay" pc="268436085" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionDisplay.mc" id="10" lineNum="52" parent="globals/SessionDisplay" pc="268436110" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="11" lineNum="93" parent="globals/BasketballTrackerApp" pc="268436131" symbol="getShots"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="11" lineNum="95" parent="globals/BasketballTrackerApp" pc="268436133" symbol="getShots"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="12" lineNum="14" parent="globals/BasketballTrackerApp" pc="268436142" symbol="saveSession"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="12" lineNum="16" parent="globals/BasketballTrackerApp" pc="268436146" symbol="saveSession"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="12" lineNum="18" parent="globals/BasketballTrackerApp" pc="268436150" symbol="saveSession"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="12" lineNum="20" parent="globals/BasketballTrackerApp" pc="268436180" symbol="saveSession"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="12" lineNum="21" parent="globals/BasketballTrackerApp" pc="268436193" symbol="saveSession"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="12" lineNum="23" parent="globals/BasketballTrackerApp" pc="268436213" symbol="saveSession"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="12" lineNum="24" parent="globals/BasketballTrackerApp" pc="268436235" symbol="saveSession"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="12" lineNum="25" parent="globals/BasketballTrackerApp" pc="268436257" symbol="saveSession"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="12" lineNum="26" parent="globals/BasketballTrackerApp" pc="268436261" symbol="saveSession"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="12" lineNum="30" parent="globals/BasketballTrackerApp" pc="268436277" symbol="saveSession"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="12" lineNum="32" parent="globals/BasketballTrackerApp" pc="268436300" symbol="saveSession"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="12" lineNum="39" parent="globals/BasketballTrackerApp" pc="268436356" symbol="saveSession"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="13" lineNum="120" parent="globals/BasketballTrackerApp" pc="268436377" symbol="incrementMadeShots"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="13" lineNum="122" parent="globals/BasketballTrackerApp" pc="268436379" symbol="incrementMadeShots"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="13" lineNum="123" parent="globals/BasketballTrackerApp" pc="268436398" symbol="incrementMadeShots"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="13" lineNum="124" parent="globals/BasketballTrackerApp" pc="268436417" symbol="incrementMadeShots"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="13" lineNum="125" parent="globals/BasketballTrackerApp" pc="268436436" symbol="incrementMadeShots"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="13" lineNum="126" parent="globals/BasketballTrackerApp" pc="268436455" symbol="incrementMadeShots"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="13" lineNum="129" parent="globals/BasketballTrackerApp" pc="268436500" symbol="incrementMadeShots"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="14" lineNum="132" parent="globals/BasketballTrackerApp" pc="268436517" symbol="startLap"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="14" lineNum="134" parent="globals/BasketballTrackerApp" pc="268436519" symbol="startLap"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="14" lineNum="136" parent="globals/BasketballTrackerApp" pc="268436531" symbol="startLap"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="14" lineNum="137" parent="globals/BasketballTrackerApp" pc="268436544" symbol="startLap"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="14" lineNum="138" parent="globals/BasketballTrackerApp" pc="268436557" symbol="startLap"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="14" lineNum="140" parent="globals/BasketballTrackerApp" pc="268436578" symbol="startLap"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="15" lineNum="154" parent="globals/BasketballTrackerApp" pc="268436595" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="15" lineNum="155" parent="globals/BasketballTrackerApp" pc="268436597" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="16" lineNum="58" parent="globals/BasketballTrackerApp" pc="268436664" symbol="undoMake"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="16" lineNum="60" parent="globals/BasketballTrackerApp" pc="268436666" symbol="undoMake"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="16" lineNum="62" parent="globals/BasketballTrackerApp" pc="268436683" symbol="undoMake"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="16" lineNum="63" parent="globals/BasketballTrackerApp" pc="268436702" symbol="undoMake"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="16" lineNum="64" parent="globals/BasketballTrackerApp" pc="268436721" symbol="undoMake"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="16" lineNum="65" parent="globals/BasketballTrackerApp" pc="268436740" symbol="undoMake"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="17" lineNum="88" parent="globals/BasketballTrackerApp" pc="268436760" symbol="getSesTotal"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="17" lineNum="90" parent="globals/BasketballTrackerApp" pc="268436762" symbol="getSesTotal"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="19" lineNum="111" parent="globals/BasketballTrackerApp" pc="268436771" symbol="shotMissed"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="19" lineNum="113" parent="globals/BasketballTrackerApp" pc="268436773" symbol="shotMissed"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="19" lineNum="114" parent="globals/BasketballTrackerApp" pc="268436792" symbol="shotMissed"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="19" lineNum="115" parent="globals/BasketballTrackerApp" pc="268436811" symbol="shotMissed"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="19" lineNum="117" parent="globals/BasketballTrackerApp" pc="268436856" symbol="shotMissed"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="20" lineNum="83" parent="globals/BasketballTrackerApp" pc="268436873" symbol="getSesShots"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="20" lineNum="85" parent="globals/BasketballTrackerApp" pc="268436875" symbol="getSesShots"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="21" lineNum="103" parent="globals/BasketballTrackerApp" pc="268436884" symbol="reset"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="21" lineNum="105" parent="globals/BasketballTrackerApp" pc="268436886" symbol="reset"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="21" lineNum="106" parent="globals/BasketballTrackerApp" pc="268436899" symbol="reset"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="21" lineNum="107" parent="globals/BasketballTrackerApp" pc="268436912" symbol="reset"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="21" lineNum="108" parent="globals/BasketballTrackerApp" pc="268436925" symbol="reset"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="22" lineNum="43" parent="globals/BasketballTrackerApp" pc="268436939" symbol="getAllSessions"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="22" lineNum="45" parent="globals/BasketballTrackerApp" pc="268436941" symbol="getAllSessions"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="23" lineNum="98" parent="globals/BasketballTrackerApp" pc="268436950" symbol="getTotal"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="23" lineNum="100" parent="globals/BasketballTrackerApp" pc="268436952" symbol="getTotal"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="24" lineNum="48" parent="globals/BasketballTrackerApp" pc="268436961" symbol="setSession"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="24" lineNum="50" parent="globals/BasketballTrackerApp" pc="268436963" symbol="setSession"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="25" lineNum="78" parent="globals/BasketballTrackerApp" pc="268436974" symbol="initialize"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="25" lineNum="80" parent="globals/BasketballTrackerApp" pc="268436976" symbol="initialize"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="26" lineNum="69" parent="globals/BasketballTrackerApp" pc="268436995" symbol="undoMiss"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="26" lineNum="71" parent="globals/BasketballTrackerApp" pc="268436997" symbol="undoMiss"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="26" lineNum="73" parent="globals/BasketballTrackerApp" pc="268437014" symbol="undoMiss"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="26" lineNum="74" parent="globals/BasketballTrackerApp" pc="268437033" symbol="undoMiss"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="27" lineNum="53" parent="globals/BasketballTrackerApp" pc="268437053" symbol="getSession"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerApp.mc" id="27" lineNum="55" parent="globals/BasketballTrackerApp" pc="268437055" symbol="getSession"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerDelegate.mc" id="29" lineNum="34" parent="globals/BasketballTrackerDelegate" pc="268437064" symbol="onBack"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerDelegate.mc" id="29" lineNum="36" parent="globals/BasketballTrackerDelegate" pc="268437068" symbol="onBack"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerDelegate.mc" id="29" lineNum="38" parent="globals/BasketballTrackerDelegate" pc="268437085" symbol="onBack"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerDelegate.mc" id="29" lineNum="40" parent="globals/BasketballTrackerDelegate" pc="268437097" symbol="onBack"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerDelegate.mc" id="30" lineNum="10" parent="globals/BasketballTrackerDelegate" pc="268437100" symbol="onMenu"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerDelegate.mc" id="30" lineNum="12" parent="globals/BasketballTrackerDelegate" pc="268437104" symbol="onMenu"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerDelegate.mc" id="30" lineNum="13" parent="globals/BasketballTrackerDelegate" pc="268437151" symbol="onMenu"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerDelegate.mc" id="30" lineNum="14" parent="globals/BasketballTrackerDelegate" pc="268437201" symbol="onMenu"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerDelegate.mc" id="30" lineNum="15" parent="globals/BasketballTrackerDelegate" pc="268437251" symbol="onMenu"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerDelegate.mc" id="30" lineNum="16" parent="globals/BasketballTrackerDelegate" pc="268437301" symbol="onMenu"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerDelegate.mc" id="30" lineNum="17" parent="globals/BasketballTrackerDelegate" pc="268437351" symbol="onMenu"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerDelegate.mc" id="30" lineNum="18" parent="globals/BasketballTrackerDelegate" pc="268437401" symbol="onMenu"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerDelegate.mc" id="30" lineNum="21" parent="globals/BasketballTrackerDelegate" pc="268437451" symbol="onMenu"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerDelegate.mc" id="30" lineNum="22" parent="globals/BasketballTrackerDelegate" pc="268437496" symbol="onMenu"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerDelegate.mc" id="31" lineNum="6" parent="globals/BasketballTrackerDelegate" pc="268437499" symbol="initialize"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerDelegate.mc" id="31" lineNum="7" parent="globals/BasketballTrackerDelegate" pc="268437501" symbol="initialize"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerDelegate.mc" id="32" lineNum="25" parent="globals/BasketballTrackerDelegate" pc="268437520" symbol="onSelect"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerDelegate.mc" id="32" lineNum="27" parent="globals/BasketballTrackerDelegate" pc="268437524" symbol="onSelect"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerDelegate.mc" id="32" lineNum="29" parent="globals/BasketballTrackerDelegate" pc="268437541" symbol="onSelect"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerDelegate.mc" id="32" lineNum="31" parent="globals/BasketballTrackerDelegate" pc="268437553" symbol="onSelect"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerDelegate.mc" id="33" lineNum="43" parent="globals/BasketballTrackerDelegate" pc="268437556" symbol="onNextPage"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerDelegate.mc" id="33" lineNum="45" parent="globals/BasketballTrackerDelegate" pc="268437560" symbol="onNextPage"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerDelegate.mc" id="33" lineNum="47" parent="globals/BasketballTrackerDelegate" pc="268437577" symbol="onNextPage"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerDelegate.mc" id="33" lineNum="49" parent="globals/BasketballTrackerDelegate" pc="268437589" symbol="onNextPage"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="34" lineNum="7" parent="globals/BasketballTrackerMenuDelegate" pc="268437592" symbol="initialize"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="34" lineNum="8" parent="globals/BasketballTrackerMenuDelegate" pc="268437594" symbol="initialize"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="35" lineNum="11" parent="globals/BasketballTrackerMenuDelegate" pc="268437613" symbol="onSelect"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="35" lineNum="13" parent="globals/BasketballTrackerMenuDelegate" pc="268437617" symbol="onSelect"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="35" lineNum="14" parent="globals/BasketballTrackerMenuDelegate" pc="268437630" symbol="onSelect"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="35" lineNum="16" parent="globals/BasketballTrackerMenuDelegate" pc="268437647" symbol="onSelect"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="35" lineNum="18" parent="globals/BasketballTrackerMenuDelegate" pc="268437658" symbol="onSelect"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="35" lineNum="20" parent="globals/BasketballTrackerMenuDelegate" pc="268437675" symbol="onSelect"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="35" lineNum="22" parent="globals/BasketballTrackerMenuDelegate" pc="268437686" symbol="onSelect"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="35" lineNum="23" parent="globals/BasketballTrackerMenuDelegate" pc="268437698" symbol="onSelect"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="35" lineNum="25" parent="globals/BasketballTrackerMenuDelegate" pc="268437720" symbol="onSelect"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="35" lineNum="27" parent="globals/BasketballTrackerMenuDelegate" pc="268437731" symbol="onSelect"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="35" lineNum="28" parent="globals/BasketballTrackerMenuDelegate" pc="268437743" symbol="onSelect"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="35" lineNum="30" parent="globals/BasketballTrackerMenuDelegate" pc="268437765" symbol="onSelect"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="35" lineNum="32" parent="globals/BasketballTrackerMenuDelegate" pc="268437776" symbol="onSelect"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="35" lineNum="33" parent="globals/BasketballTrackerMenuDelegate" pc="268437788" symbol="onSelect"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="35" lineNum="35" parent="globals/BasketballTrackerMenuDelegate" pc="268437810" symbol="onSelect"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="35" lineNum="37" parent="globals/BasketballTrackerMenuDelegate" pc="268437821" symbol="onSelect"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="35" lineNum="38" parent="globals/BasketballTrackerMenuDelegate" pc="268437849" symbol="onSelect"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="35" lineNum="39" parent="globals/BasketballTrackerMenuDelegate" pc="268437871" symbol="onSelect"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="35" lineNum="40" parent="globals/BasketballTrackerMenuDelegate" pc="268437893" symbol="onSelect"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="35" lineNum="41" parent="globals/BasketballTrackerMenuDelegate" pc="268437915" symbol="onSelect"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="35" lineNum="42" parent="globals/BasketballTrackerMenuDelegate" pc="268437937" symbol="onSelect"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="35" lineNum="43" parent="globals/BasketballTrackerMenuDelegate" pc="268437959" symbol="onSelect"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="35" lineNum="44" parent="globals/BasketballTrackerMenuDelegate" pc="268437981" symbol="onSelect"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="35" lineNum="45" parent="globals/BasketballTrackerMenuDelegate" pc="268438003" symbol="onSelect"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="35" lineNum="47" parent="globals/BasketballTrackerMenuDelegate" pc="268438025" symbol="onSelect"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="35" lineNum="49" parent="globals/BasketballTrackerMenuDelegate" pc="268438071" symbol="onSelect"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="35" lineNum="51" parent="globals/BasketballTrackerMenuDelegate" pc="268438082" symbol="onSelect"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerMenuDelegate.mc" id="35" lineNum="55" parent="globals/BasketballTrackerMenuDelegate" pc="268438094" symbol="onSelect"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerView.mc" id="36" lineNum="22" parent="globals/BasketballTrackerView" pc="268438164" symbol="onShow"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerView.mc" id="36" lineNum="24" parent="globals/BasketballTrackerView" pc="268438166" symbol="onShow"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerView.mc" id="36" lineNum="25" parent="globals/BasketballTrackerView" pc="268438196" symbol="onShow"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerView.mc" id="36" lineNum="26" parent="globals/BasketballTrackerView" pc="268438226" symbol="onShow"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerView.mc" id="37" lineNum="15" parent="globals/BasketballTrackerView" pc="268438257" symbol="onLayout"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerView.mc" id="37" lineNum="16" parent="globals/BasketballTrackerView" pc="268438259" symbol="onLayout"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerView.mc" id="38" lineNum="10" parent="globals/BasketballTrackerView" pc="268438301" symbol="initialize"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerView.mc" id="38" lineNum="11" parent="globals/BasketballTrackerView" pc="268438303" symbol="initialize"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerView.mc" id="40" lineNum="30" parent="globals/BasketballTrackerView" pc="268438322" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerView.mc" id="40" lineNum="32" parent="globals/BasketballTrackerView" pc="268438326" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerView.mc" id="40" lineNum="33" parent="globals/BasketballTrackerView" pc="268438343" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerView.mc" id="40" lineNum="34" parent="globals/BasketballTrackerView" pc="268438356" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerView.mc" id="40" lineNum="35" parent="globals/BasketballTrackerView" pc="268438369" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerView.mc" id="40" lineNum="37" parent="globals/BasketballTrackerView" pc="268438416" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerView.mc" id="40" lineNum="38" parent="globals/BasketballTrackerView" pc="268438429" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerView.mc" id="40" lineNum="39" parent="globals/BasketballTrackerView" pc="268438442" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerView.mc" id="40" lineNum="41" parent="globals/BasketballTrackerView" pc="268438489" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerView.mc" id="40" lineNum="42" parent="globals/BasketballTrackerView" pc="268438502" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\BasketballTrackerView.mc" id="40" lineNum="44" parent="globals/BasketballTrackerView" pc="268438522" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionMenuDelegate.mc" id="41" lineNum="12" parent="globals/SessionMenuDelegate" pc="268438543" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionMenuDelegate.mc" id="41" lineNum="14" parent="globals/SessionMenuDelegate" pc="268438547" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionMenuDelegate.mc" id="41" lineNum="15" parent="globals/SessionMenuDelegate" pc="268438564" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionMenuDelegate.mc" id="41" lineNum="17" parent="globals/SessionMenuDelegate" pc="268438571" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionMenuDelegate.mc" id="41" lineNum="19" parent="globals/SessionMenuDelegate" pc="268438582" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionMenuDelegate.mc" id="41" lineNum="21" parent="globals/SessionMenuDelegate" pc="268438592" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionMenuDelegate.mc" id="41" lineNum="23" parent="globals/SessionMenuDelegate" pc="268438603" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionMenuDelegate.mc" id="41" lineNum="25" parent="globals/SessionMenuDelegate" pc="268438613" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionMenuDelegate.mc" id="41" lineNum="27" parent="globals/SessionMenuDelegate" pc="268438624" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionMenuDelegate.mc" id="41" lineNum="29" parent="globals/SessionMenuDelegate" pc="268438634" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionMenuDelegate.mc" id="41" lineNum="31" parent="globals/SessionMenuDelegate" pc="268438645" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionMenuDelegate.mc" id="41" lineNum="33" parent="globals/SessionMenuDelegate" pc="268438655" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionMenuDelegate.mc" id="41" lineNum="35" parent="globals/SessionMenuDelegate" pc="268438666" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionMenuDelegate.mc" id="41" lineNum="37" parent="globals/SessionMenuDelegate" pc="268438676" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionMenuDelegate.mc" id="41" lineNum="39" parent="globals/SessionMenuDelegate" pc="268438687" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionMenuDelegate.mc" id="41" lineNum="41" parent="globals/SessionMenuDelegate" pc="268438697" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionMenuDelegate.mc" id="41" lineNum="43" parent="globals/SessionMenuDelegate" pc="268438708" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionMenuDelegate.mc" id="41" lineNum="45" parent="globals/SessionMenuDelegate" pc="268438718" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionMenuDelegate.mc" id="41" lineNum="47" parent="globals/SessionMenuDelegate" pc="268438729" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionMenuDelegate.mc" id="41" lineNum="50" parent="globals/SessionMenuDelegate" pc="268438736" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionMenuDelegate.mc" id="41" lineNum="51" parent="globals/SessionMenuDelegate" pc="268438748" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionMenuDelegate.mc" id="41" lineNum="52" parent="globals/SessionMenuDelegate" pc="268438762" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionMenuDelegate.mc" id="42" lineNum="7" parent="globals/SessionMenuDelegate" pc="268438784" symbol="initialize"/>
+        <entry filename="C:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\source\\SessionMenuDelegate.mc" id="42" lineNum="9" parent="globals/SessionMenuDelegate" pc="268438786" symbol="initialize"/>
+        <entry filename="c:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\gen\\006-B3869-00\\source\\Rez.mcgen" id="43" lineNum="14" parent="globals/Rez/Layouts" pc="268438805" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\gen\\006-B3869-00\\source\\Rez.mcgen" id="43" lineNum="15" parent="globals/Rez/Layouts" pc="268438817" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\gen\\006-B3869-00\\source\\Rez.mcgen" id="43" lineNum="17" parent="globals/Rez/Layouts" pc="268438830" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\gen\\006-B3869-00\\source\\Rez.mcgen" id="43" lineNum="19" parent="globals/Rez/Layouts" pc="268438964" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\gen\\006-B3869-00\\source\\Rez.mcgen" id="43" lineNum="20" parent="globals/Rez/Layouts" pc="268439069" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\gen\\006-B3869-00\\source\\Rez.mcgen" id="43" lineNum="22" parent="globals/Rez/Layouts" pc="268439106" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\gen\\006-B3869-00\\source\\Rez.mcgen" id="43" lineNum="24" parent="globals/Rez/Layouts" pc="268439234" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\gen\\006-B3869-00\\source\\Rez.mcgen" id="43" lineNum="26" parent="globals/Rez/Layouts" pc="268439362" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\gen\\006-B3869-00\\source\\Rez.mcgen" id="43" lineNum="28" parent="globals/Rez/Layouts" pc="268439490" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\gen\\006-B3869-00\\source\\Rez.mcgen" id="44" lineNum="33" parent="globals/Rez/Menus/MainMenu" pc="268439547" symbol="&lt;init&gt;"/>
+        <entry filename="c:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\gen\\006-B3869-00\\source\\Rez.mcgen" id="45" lineNum="34" parent="globals/Rez/Menus/MainMenu" pc="268439566" symbol="initialize"/>
+        <entry filename="c:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\gen\\006-B3869-00\\source\\Rez.mcgen" id="45" lineNum="35" parent="globals/Rez/Menus/MainMenu" pc="268439568" symbol="initialize"/>
+        <entry filename="c:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\gen\\006-B3869-00\\source\\Rez.mcgen" id="45" lineNum="36" parent="globals/Rez/Menus/MainMenu" pc="268439586" symbol="initialize"/>
+        <entry filename="c:\\Users\\jackc\\source\\repos\\Garmin\\BasketballTracker\\gen\\006-B3869-00\\source\\Rez.mcgen" id="45" lineNum="37" parent="globals/Rez/Menus/MainMenu" pc="268439642" symbol="initialize"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
         <entry field="true" id="8389346" symbol="text"/>
-        <entry id="24" method="true" symbol="incrementMadeShots"/>
+        <entry id="21" method="true" symbol="incrementMadeShots"/>
         <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
         <entry id="5" module="true" symbol="globals/Rez/Menus"/>
-        <entry id="41" method="true" symbol="MainLayout"/>
-        <entry id="34" method="true" symbol="undoMiss"/>
-        <entry id="12" object="true" symbol="SessionItem"/>
+        <entry id="38" method="true" symbol="MainLayout"/>
+        <entry id="31" method="true" symbol="undoMiss"/>
         <entry id="10" object="true" symbol="BasketballTrackerView"/>
         <entry id="9" object="true" symbol="BasketballTrackerMenuDelegate"/>
-        <entry field="true" id="17" symbol="&lt;globals/BasketballTrackerApp/&lt;&gt;allSessions&gt;"/>
+        <entry field="true" id="14" symbol="&lt;globals/BasketballTrackerApp/&lt;&gt;allSessions&gt;"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-        <entry field="true" id="28" symbol="&lt;globals/BasketballTrackerApp/&lt;&gt;sessionTotal&gt;"/>
+        <entry field="true" id="25" symbol="&lt;globals/BasketballTrackerApp/&lt;&gt;sessionTotal&gt;"/>
         <entry id="8392382" method="true" symbol="reset"/>
-        <entry field="true" id="43" symbol="AppName"/>
+        <entry field="true" id="40" symbol="AppName"/>
         <entry id="6" module="true" symbol="globals/Rez/Strings"/>
         <entry id="8389080" method="true" symbol="onMenu"/>
         <entry id="8389345" symbol="rezId"/>
-        <entry id="19" method="true" symbol="getSesShots"/>
+        <entry id="16" method="true" symbol="getSesShots"/>
         <entry id="8388648" module="true" symbol="WatchUi"/>
         <entry id="8389081" method="true" symbol="onBack"/>
         <entry id="7" object="true" symbol="BasketballTrackerApp"/>
         <entry id="2" module="true" symbol="globals/Rez"/>
-        <entry id="20" method="true" symbol="getSesTotal"/>
-        <entry field="true" id="46" symbol="prompt"/>
-        <entry field="true" id="32" symbol="&lt;globals/BasketballTrackerApp/&lt;&gt;totalShots&gt;"/>
-        <entry field="true" id="15" symbol="&lt;globals/SessionItem/&lt;&gt;_stats&gt;"/>
+        <entry id="17" method="true" symbol="getSesTotal"/>
+        <entry field="true" id="43" symbol="prompt"/>
+        <entry field="true" id="29" symbol="&lt;globals/BasketballTrackerApp/&lt;&gt;totalShots&gt;"/>
         <entry id="8389124" method="true" symbol="onUpdate"/>
         <entry field="true" id="8389065" symbol="locY"/>
         <entry field="true" id="8389064" symbol="locX"/>
-        <entry id="52" symbol="tk"/>
+        <entry id="49" symbol="tk"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
         <entry id="8389348" symbol="font"/>
-        <entry id="33" method="true" symbol="undoMake"/>
-        <entry id="53" symbol="rw"/>
-        <entry id="55" symbol="rc"/>
-        <entry id="59" symbol="item_2"/>
-        <entry id="47" symbol="sessions"/>
-        <entry id="58" symbol="item_1"/>
-        <entry id="36" module="true" symbol="Menus"/>
+        <entry id="30" method="true" symbol="undoMake"/>
+        <entry id="50" symbol="rw"/>
+        <entry id="52" symbol="rc"/>
+        <entry id="55" symbol="item_2"/>
+        <entry id="44" symbol="sessions"/>
+        <entry id="54" symbol="item_1"/>
+        <entry id="33" module="true" symbol="Menus"/>
         <entry id="8389275" method="true" symbol="getApp"/>
         <entry id="8" object="true" symbol="BasketballTrackerDelegate"/>
         <entry id="4" module="true" symbol="globals/Rez/Layouts"/>
-        <entry id="54" symbol="lw"/>
-        <entry id="56" symbol="lc"/>
+        <entry id="51" symbol="lw"/>
+        <entry id="53" symbol="lc"/>
         <entry id="8389122" method="true" symbol="onLayout"/>
-        <entry field="true" id="14" symbol="&lt;globals/SessionItem/&lt;&gt;_label&gt;"/>
         <entry field="true" id="8389063" symbol="identifier"/>
         <entry id="8389349" symbol="justification"/>
-        <entry id="49" symbol="ft"/>
-        <entry field="true" id="38" symbol="TotalShots"/>
+        <entry id="46" symbol="ft"/>
+        <entry field="true" id="35" symbol="TotalShots"/>
         <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
-        <entry id="42" object="true" symbol="MainMenu"/>
-        <entry id="29" method="true" symbol="setSession"/>
-        <entry id="51" symbol="lbl"/>
-        <entry id="57" symbol="none"/>
+        <entry id="39" object="true" symbol="MainMenu"/>
+        <entry id="26" method="true" symbol="setSession"/>
+        <entry id="48" symbol="lbl"/>
         <entry id="8388644" module="true" symbol="System"/>
         <entry id="8389619" method="true" symbol="onSelect"/>
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
-        <entry id="50" symbol="rbl"/>
+        <entry id="47" symbol="rbl"/>
         <entry id="8388640" module="true" symbol="Lang"/>
-        <entry field="true" id="37" symbol="Shots"/>
-        <entry id="8389068" method="true" symbol="draw"/>
-        <entry id="31" method="true" symbol="startLap"/>
-        <entry field="true" id="39" symbol="LauncherIcon"/>
+        <entry field="true" id="34" symbol="Shots"/>
+        <entry id="28" method="true" symbol="startLap"/>
+        <entry field="true" id="36" symbol="LauncherIcon"/>
         <entry id="8388610" symbol="statics"/>
         <entry id="8389123" method="true" symbol="onShow"/>
         <entry id="8389350" module="true" symbol="globals"/>
-        <entry field="true" id="25" symbol="&lt;globals/BasketballTrackerApp/&lt;&gt;madeShots&gt;"/>
+        <entry field="true" id="22" symbol="&lt;globals/BasketballTrackerApp/&lt;&gt;madeShots&gt;"/>
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
-        <entry id="13" object="true" symbol="SessionMenuDelegate"/>
+        <entry id="12" object="true" symbol="SessionMenuDelegate"/>
         <entry field="true" id="8389298" object="true" symbol="Location"/>
         <entry id="8388702" method="true" symbol="initialize"/>
         <entry id="8389279" method="true" symbol="onStart"/>
-        <entry id="30" method="true" symbol="shotMissed"/>
-        <entry field="true" id="40" symbol="id_court"/>
-        <entry id="22" method="true" symbol="getShots"/>
-        <entry field="true" id="16" symbol="&lt;globals/BasketballTrackerApp/&lt;&gt;SessionId&gt;"/>
+        <entry id="27" method="true" symbol="shotMissed"/>
+        <entry field="true" id="37" symbol="id_court"/>
+        <entry id="19" method="true" symbol="getShots"/>
+        <entry field="true" id="13" symbol="&lt;globals/BasketballTrackerApp/&lt;&gt;SessionId&gt;"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
-        <entry id="23" method="true" symbol="getTotal"/>
+        <entry id="20" method="true" symbol="getTotal"/>
         <entry id="8389281" method="true" symbol="onStop"/>
         <entry id="8389109" method="true" symbol="onMenuItem"/>
         <entry field="true" id="8389347" symbol="color"/>
         <entry id="8388717" method="true" symbol="exit"/>
-        <entry id="35" module="true" symbol="Layouts"/>
-        <entry id="48" symbol="stats"/>
-        <entry id="21" method="true" symbol="getSession"/>
-        <entry id="26" method="true" symbol="saveSession"/>
-        <entry field="true" id="27" symbol="&lt;globals/BasketballTrackerApp/&lt;&gt;sessionMade&gt;"/>
-        <entry id="18" method="true" symbol="getAllSessions"/>
+        <entry id="32" module="true" symbol="Layouts"/>
+        <entry id="45" symbol="stats"/>
+        <entry id="18" method="true" symbol="getSession"/>
+        <entry id="23" method="true" symbol="saveSession"/>
+        <entry field="true" id="24" symbol="&lt;globals/BasketballTrackerApp/&lt;&gt;sessionMade&gt;"/>
+        <entry id="15" method="true" symbol="getAllSessions"/>
         <entry id="8389125" method="true" symbol="onHide"/>
         <entry id="11" object="true" symbol="SessionDisplay"/>
         <entry id="8389078" method="true" symbol="onNextPage"/>
         <entry id="8388635" module="true" symbol="Application"/>
         <entry field="true" id="8389642" symbol="title"/>
-        <entry field="true" id="45" symbol="menu_label_2"/>
-        <entry field="true" id="44" symbol="menu_label_1"/>
+        <entry field="true" id="42" symbol="menu_label_2"/>
+        <entry field="true" id="41" symbol="menu_label_1"/>
     </symbolTable>
     <localVars>
-        <entry arg="true" endPc="268436165" name="dc" stackId="1" startPc="268435675"/>
-        <entry endPc="268436164" name="app" stackId="2" startPc="268435679"/>
-        <entry endPc="268436164" name="sessions" stackId="3" startPc="268435679"/>
-        <entry endPc="268436164" name="width" stackId="4" startPc="268435679"/>
-        <entry endPc="268436164" name="height" stackId="5" startPc="268435679"/>
-        <entry endPc="268436164" name="centerX" stackId="6" startPc="268435679"/>
-        <entry endPc="268436164" name="centerY" stackId="7" startPc="268435679"/>
-        <entry endPc="268436164" name="font" stackId="8" startPc="268435679"/>
-        <entry endPc="268436164" name="titleFont" stackId="9" startPc="268435679"/>
-        <entry endPc="268436164" name="lineSpacing" stackId="10" startPc="268435679"/>
-        <entry endPc="268436164" name="totalContentHeight" stackId="11" startPc="268435679"/>
-        <entry endPc="268436164" name="currentY" stackId="12" startPc="268435679"/>
-        <entry endPc="268436164" name="i" stackId="13" startPc="268436030"/>
-        <entry endPc="268436151" name="s" stackId="14" startPc="268436030"/>
-        <entry endPc="268436144" name="label" stackId="15" startPc="268436044"/>
-        <entry arg="true" endPc="268436223" name="id" stackId="1" startPc="268436166"/>
-        <entry arg="true" endPc="268436223" name="name" stackId="2" startPc="268436166"/>
-        <entry arg="true" endPc="268436223" name="made" stackId="3" startPc="268436166"/>
-        <entry arg="true" endPc="268436223" name="total" stackId="4" startPc="268436166"/>
-        <entry arg="true" endPc="268436380" name="dc" stackId="1" startPc="268436224"/>
-        <entry endPc="268436379" name="centerX" stackId="2" startPc="268436228"/>
-        <entry endPc="268436379" name="centerY" stackId="3" startPc="268436228"/>
-        <entry endPc="268436625" name="found" stackId="1" startPc="268436396"/>
-        <entry endPc="268436526" name="i" stackId="2" startPc="268436430"/>
-        <entry endPc="268436513" name="session" stackId="3" startPc="268436430"/>
-        <entry endPc="268436625" name="session" stackId="4" startPc="268436550"/>
-        <entry arg="true" endPc="268437223" name="string" stackId="1" startPc="268437211"/>
-        <entry arg="true" endPc="268438647" name="item" stackId="1" startPc="268437863"/>
-        <entry endPc="268438646" name="id" stackId="2" startPc="268437867"/>
-        <entry endPc="268438646" name="app" stackId="3" startPc="268437867"/>
-        <entry endPc="268438256" name="sessionMenu" stackId="4" startPc="268438008"/>
-        <entry endPc="268438646" name="sessions" stackId="5" startPc="268438269"/>
-        <entry endPc="268438646" name="customMenu" stackId="6" startPc="268438269"/>
-        <entry endPc="268438597" name="i" stackId="7" startPc="268438518"/>
-        <entry endPc="268438584" name="s" stackId="8" startPc="268438518"/>
-        <entry arg="true" endPc="268438784" name="dc" stackId="1" startPc="268438741"/>
-        <entry arg="true" endPc="268439026" name="dc" stackId="1" startPc="268438806"/>
-        <entry endPc="268439025" name="app" stackId="2" startPc="268438810"/>
-        <entry endPc="268439025" name="currentMade" stackId="3" startPc="268438810"/>
-        <entry endPc="268439025" name="currentTotal" stackId="4" startPc="268438810"/>
-        <entry endPc="268439025" name="overallMade" stackId="5" startPc="268438810"/>
-        <entry endPc="268439025" name="overallTotal" stackId="6" startPc="268438810"/>
-        <entry endPc="268439025" name="displayTitle" stackId="7" startPc="268438810"/>
-        <entry arg="true" endPc="268439267" name="item" stackId="1" startPc="268439027"/>
-        <entry endPc="268439266" name="app" stackId="2" startPc="268439031"/>
-        <entry endPc="268439266" name="session" stackId="3" startPc="268439031"/>
-        <entry arg="true" endPc="268440030" name="dc" stackId="1" startPc="268439289"/>
+        <entry arg="true" endPc="268436130" name="dc" stackId="1" startPc="268435656"/>
+        <entry endPc="268436129" name="app" stackId="2" startPc="268435660"/>
+        <entry endPc="268436129" name="sessions" stackId="3" startPc="268435660"/>
+        <entry endPc="268436129" name="centerX" stackId="4" startPc="268435660"/>
+        <entry endPc="268436129" name="centerY" stackId="5" startPc="268435660"/>
+        <entry endPc="268436129" name="font" stackId="6" startPc="268435660"/>
+        <entry endPc="268436129" name="titleFont" stackId="7" startPc="268435660"/>
+        <entry endPc="268436129" name="lineSpacing" stackId="8" startPc="268435660"/>
+        <entry endPc="268436129" name="titleY" stackId="9" startPc="268435660"/>
+        <entry endPc="268436129" name="currentY" stackId="10" startPc="268435660"/>
+        <entry endPc="268436129" name="i" stackId="11" startPc="268435973"/>
+        <entry endPc="268436116" name="s" stackId="12" startPc="268435973"/>
+        <entry endPc="268436109" name="label" stackId="13" startPc="268435987"/>
+        <entry endPc="268436375" name="found" stackId="1" startPc="268436146"/>
+        <entry endPc="268436276" name="i" stackId="2" startPc="268436180"/>
+        <entry endPc="268436263" name="session" stackId="3" startPc="268436180"/>
+        <entry endPc="268436375" name="session" stackId="4" startPc="268436300"/>
+        <entry arg="true" endPc="268436973" name="string" stackId="1" startPc="268436961"/>
+        <entry arg="true" endPc="268438163" name="item" stackId="1" startPc="268437613"/>
+        <entry endPc="268438162" name="id" stackId="2" startPc="268437617"/>
+        <entry endPc="268438162" name="app" stackId="3" startPc="268437617"/>
+        <entry endPc="268438069" name="sessionMenu" stackId="4" startPc="268437821"/>
+        <entry arg="true" endPc="268438300" name="dc" stackId="1" startPc="268438257"/>
+        <entry arg="true" endPc="268438542" name="dc" stackId="1" startPc="268438322"/>
+        <entry endPc="268438541" name="app" stackId="2" startPc="268438326"/>
+        <entry endPc="268438541" name="currentMade" stackId="3" startPc="268438326"/>
+        <entry endPc="268438541" name="currentTotal" stackId="4" startPc="268438326"/>
+        <entry endPc="268438541" name="overallMade" stackId="5" startPc="268438326"/>
+        <entry endPc="268438541" name="overallTotal" stackId="6" startPc="268438326"/>
+        <entry endPc="268438541" name="displayTitle" stackId="7" startPc="268438326"/>
+        <entry arg="true" endPc="268438783" name="item" stackId="1" startPc="268438543"/>
+        <entry endPc="268438782" name="app" stackId="2" startPc="268438547"/>
+        <entry endPc="268438782" name="session" stackId="3" startPc="268438547"/>
+        <entry arg="true" endPc="268439546" name="dc" stackId="1" startPc="268438805"/>
     </localVars>
     <deviceInfo deviceVersion="bb3887dffaa22ce965b5fe681a1cee6986d833ca" partNumber="006-B3869-00"/>
     <annotations>
@@ -390,19 +354,18 @@
     </annotations>
     <dataEntryOffsetMappings>
         <dataEntry label="globals" offset="71" parentId="" symbolId="globals" type="module"/>
-        <dataEntry label="globals/SessionDisplay" offset="182" parentId="globals" symbolId="SessionDisplay" type="class"/>
-        <dataEntry label="globals/SessionItem" offset="237" parentId="globals" symbolId="SessionItem" type="class"/>
-        <dataEntry label="globals/BasketballTrackerApp" offset="308" parentId="globals" symbolId="BasketballTrackerApp" type="class"/>
-        <dataEntry label="globals/BasketballTrackerDelegate" offset="539" parentId="globals" symbolId="BasketballTrackerDelegate" type="class"/>
-        <dataEntry label="globals/Rez" offset="618" parentId="globals" symbolId="Rez" type="module"/>
-        <dataEntry label="globals/BasketballTrackerMenuDelegate" offset="681" parentId="globals" symbolId="BasketballTrackerMenuDelegate" type="class"/>
-        <dataEntry label="globals/BasketballTrackerView" offset="736" parentId="globals" symbolId="BasketballTrackerView" type="class"/>
-        <dataEntry label="globals/SessionMenuDelegate" offset="839" parentId="globals" symbolId="SessionMenuDelegate" type="class"/>
-        <dataEntry label="globals/Rez/Drawables" offset="894" parentId="Rez" symbolId="Drawables" type="module"/>
-        <dataEntry label="globals/Rez/Layouts" offset="941" parentId="Rez" symbolId="Layouts" type="module"/>
-        <dataEntry label="globals/Rez/Menus" offset="980" parentId="Rez" symbolId="Menus" type="module"/>
-        <dataEntry label="globals/Rez/Strings" offset="1019" parentId="Rez" symbolId="Strings" type="module"/>
-        <dataEntry label="globals/Rez/Menus/MainMenu" offset="1082" parentId="Menus" symbolId="MainMenu" type="class"/>
+        <dataEntry label="globals/SessionDisplay" offset="174" parentId="globals" symbolId="SessionDisplay" type="class"/>
+        <dataEntry label="globals/BasketballTrackerApp" offset="229" parentId="globals" symbolId="BasketballTrackerApp" type="class"/>
+        <dataEntry label="globals/BasketballTrackerDelegate" offset="460" parentId="globals" symbolId="BasketballTrackerDelegate" type="class"/>
+        <dataEntry label="globals/Rez" offset="539" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/BasketballTrackerMenuDelegate" offset="602" parentId="globals" symbolId="BasketballTrackerMenuDelegate" type="class"/>
+        <dataEntry label="globals/BasketballTrackerView" offset="657" parentId="globals" symbolId="BasketballTrackerView" type="class"/>
+        <dataEntry label="globals/SessionMenuDelegate" offset="760" parentId="globals" symbolId="SessionMenuDelegate" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="815" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="862" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="901" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="940" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Rez/Menus/MainMenu" offset="1003" parentId="Menus" symbolId="MainMenu" type="class"/>
     </dataEntryOffsetMappings>
     <functions>
         <functionEntry accessMode="public" endPc="268435475" name="&lt;init&gt;" parent="SessionDisplay" startPc="268435457">
@@ -411,115 +374,101 @@
         <functionEntry accessMode="public" endPc="268435501" name="getApp" startPc="268435476">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435520" name="&lt;init&gt;" parent="SessionItem" startPc="268435502">
+        <functionEntry accessMode="public" endPc="268435534" name="&lt;init&gt;" parent="BasketballTrackerApp" startPc="268435502">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435553" name="&lt;init&gt;" parent="BasketballTrackerApp" startPc="268435521">
+        <functionEntry accessMode="public" endPc="268435553" name="&lt;init&gt;" parent="BasketballTrackerDelegate" startPc="268435535">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435572" name="&lt;init&gt;" parent="BasketballTrackerDelegate" startPc="268435554">
+        <functionEntry accessMode="public" endPc="268435577" name="&lt;init&gt;" parent="Rez" startPc="268435554">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435596" name="&lt;init&gt;" parent="Rez" startPc="268435573">
+        <functionEntry accessMode="public" endPc="268435596" name="&lt;init&gt;" parent="BasketballTrackerMenuDelegate" startPc="268435578">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435615" name="&lt;init&gt;" parent="BasketballTrackerMenuDelegate" startPc="268435597">
+        <functionEntry accessMode="public" endPc="268435615" name="&lt;init&gt;" parent="BasketballTrackerView" startPc="268435597">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435634" name="&lt;init&gt;" parent="BasketballTrackerView" startPc="268435616">
+        <functionEntry accessMode="public" endPc="268435634" name="&lt;init&gt;" parent="SessionMenuDelegate" startPc="268435616">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435653" name="&lt;init&gt;" parent="SessionMenuDelegate" startPc="268435635">
+        <functionEntry accessMode="public" endPc="268435655" name="initialize" parent="SessionDisplay" startPc="268435635">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435674" name="initialize" parent="SessionDisplay" startPc="268435654">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268436165" name="onUpdate" parent="SessionDisplay" startPc="268435675">
+        <functionEntry accessMode="public" endPc="268436130" name="onUpdate" parent="SessionDisplay" startPc="268435656">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436223" name="initialize" parent="SessionItem" startPc="268436166">
-            <param id="id"/>
-            <param id="name"/>
-            <param id="made"/>
-            <param id="total"/>
+        <functionEntry accessMode="public" endPc="268436141" name="getShots" parent="BasketballTrackerApp" startPc="268436131">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436380" name="draw" parent="SessionItem" startPc="268436224">
-            <param id="dc"/>
+        <functionEntry accessMode="public" endPc="268436376" name="saveSession" parent="BasketballTrackerApp" startPc="268436142">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436391" name="getShots" parent="BasketballTrackerApp" startPc="268436381">
+        <functionEntry accessMode="public" endPc="268436516" name="incrementMadeShots" parent="BasketballTrackerApp" startPc="268436377">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436626" name="saveSession" parent="BasketballTrackerApp" startPc="268436392">
+        <functionEntry accessMode="public" endPc="268436594" name="startLap" parent="BasketballTrackerApp" startPc="268436517">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436766" name="incrementMadeShots" parent="BasketballTrackerApp" startPc="268436627">
+        <functionEntry accessMode="public" endPc="268436663" name="getInitialView" parent="BasketballTrackerApp" startPc="268436595">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436844" name="startLap" parent="BasketballTrackerApp" startPc="268436767">
+        <functionEntry accessMode="public" endPc="268436759" name="undoMake" parent="BasketballTrackerApp" startPc="268436664">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436913" name="getInitialView" parent="BasketballTrackerApp" startPc="268436845">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268437009" name="undoMake" parent="BasketballTrackerApp" startPc="268436914">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268437020" name="getSesTotal" parent="BasketballTrackerApp" startPc="268437010">
+        <functionEntry accessMode="public" endPc="268436770" name="getSesTotal" parent="BasketballTrackerApp" startPc="268436760">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="onStart" parent="BasketballTrackerApp">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437122" name="shotMissed" parent="BasketballTrackerApp" startPc="268437021">
+        <functionEntry accessMode="public" endPc="268436872" name="shotMissed" parent="BasketballTrackerApp" startPc="268436771">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437133" name="getSesShots" parent="BasketballTrackerApp" startPc="268437123">
+        <functionEntry accessMode="public" endPc="268436883" name="getSesShots" parent="BasketballTrackerApp" startPc="268436873">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437188" name="reset" parent="BasketballTrackerApp" startPc="268437134">
+        <functionEntry accessMode="public" endPc="268436938" name="reset" parent="BasketballTrackerApp" startPc="268436884">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437199" name="getAllSessions" parent="BasketballTrackerApp" startPc="268437189">
+        <functionEntry accessMode="public" endPc="268436949" name="getAllSessions" parent="BasketballTrackerApp" startPc="268436939">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437210" name="getTotal" parent="BasketballTrackerApp" startPc="268437200">
+        <functionEntry accessMode="public" endPc="268436960" name="getTotal" parent="BasketballTrackerApp" startPc="268436950">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437223" name="setSession" parent="BasketballTrackerApp" startPc="268437211">
+        <functionEntry accessMode="public" endPc="268436973" name="setSession" parent="BasketballTrackerApp" startPc="268436961">
             <param id="string"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437244" name="initialize" parent="BasketballTrackerApp" startPc="268437224">
+        <functionEntry accessMode="public" endPc="268436994" name="initialize" parent="BasketballTrackerApp" startPc="268436974">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437302" name="undoMiss" parent="BasketballTrackerApp" startPc="268437245">
+        <functionEntry accessMode="public" endPc="268437052" name="undoMiss" parent="BasketballTrackerApp" startPc="268436995">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437313" name="getSession" parent="BasketballTrackerApp" startPc="268437303">
+        <functionEntry accessMode="public" endPc="268437063" name="getSession" parent="BasketballTrackerApp" startPc="268437053">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="onStop" parent="BasketballTrackerApp">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437349" name="onBack" parent="BasketballTrackerDelegate" startPc="268437314">
+        <functionEntry accessMode="public" endPc="268437099" name="onBack" parent="BasketballTrackerDelegate" startPc="268437064">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437748" name="onMenu" parent="BasketballTrackerDelegate" startPc="268437350">
+        <functionEntry accessMode="public" endPc="268437498" name="onMenu" parent="BasketballTrackerDelegate" startPc="268437100">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437769" name="initialize" parent="BasketballTrackerDelegate" startPc="268437749">
+        <functionEntry accessMode="public" endPc="268437519" name="initialize" parent="BasketballTrackerDelegate" startPc="268437499">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437805" name="onSelect" parent="BasketballTrackerDelegate" startPc="268437770">
+        <functionEntry accessMode="public" endPc="268437555" name="onSelect" parent="BasketballTrackerDelegate" startPc="268437520">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437841" name="onNextPage" parent="BasketballTrackerDelegate" startPc="268437806">
+        <functionEntry accessMode="public" endPc="268437591" name="onNextPage" parent="BasketballTrackerDelegate" startPc="268437556">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
@@ -534,45 +483,45 @@
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437862" name="initialize" parent="BasketballTrackerMenuDelegate" startPc="268437842">
+        <functionEntry accessMode="public" endPc="268437612" name="initialize" parent="BasketballTrackerMenuDelegate" startPc="268437592">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438647" name="onSelect" parent="BasketballTrackerMenuDelegate" startPc="268437863">
+        <functionEntry accessMode="public" endPc="268438163" name="onSelect" parent="BasketballTrackerMenuDelegate" startPc="268437613">
             <param id="item"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438740" name="onShow" parent="BasketballTrackerView" startPc="268438648">
+        <functionEntry accessMode="public" endPc="268438256" name="onShow" parent="BasketballTrackerView" startPc="268438164">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438784" name="onLayout" parent="BasketballTrackerView" startPc="268438741">
+        <functionEntry accessMode="public" endPc="268438300" name="onLayout" parent="BasketballTrackerView" startPc="268438257">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438805" name="initialize" parent="BasketballTrackerView" startPc="268438785">
+        <functionEntry accessMode="public" endPc="268438321" name="initialize" parent="BasketballTrackerView" startPc="268438301">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="onHide" parent="BasketballTrackerView">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439026" name="onUpdate" parent="BasketballTrackerView" startPc="268438806">
+        <functionEntry accessMode="public" endPc="268438542" name="onUpdate" parent="BasketballTrackerView" startPc="268438322">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439267" name="onMenuItem" parent="SessionMenuDelegate" startPc="268439027">
+        <functionEntry accessMode="public" endPc="268438783" name="onMenuItem" parent="SessionMenuDelegate" startPc="268438543">
             <param id="item"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439288" name="initialize" parent="SessionMenuDelegate" startPc="268439268">
+        <functionEntry accessMode="public" endPc="268438804" name="initialize" parent="SessionMenuDelegate" startPc="268438784">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440030" name="MainLayout" parent="Layouts" startPc="268439289">
+        <functionEntry accessMode="public" endPc="268439546" name="MainLayout" parent="Layouts" startPc="268438805">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440049" name="&lt;init&gt;" parent="MainMenu" startPc="268440031">
+        <functionEntry accessMode="public" endPc="268439565" name="&lt;init&gt;" parent="MainMenu" startPc="268439547">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440182" name="initialize" parent="MainMenu" startPc="268440050">
+        <functionEntry accessMode="public" endPc="268439698" name="initialize" parent="MainMenu" startPc="268439566">
             <documentation/>
         </functionEntry>
     </functions>

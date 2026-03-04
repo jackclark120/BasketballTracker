@@ -20,14 +20,17 @@ class BasketballTrackerMenuDelegate extends WatchUi.Menu2InputDelegate {
         else if (id == :reset) 
         {
             app.reset();
+            WatchUi.popView(WatchUi.SLIDE_UP);
         }
         else if(id == :undoMake)
         {
             app.undoMake();
+            WatchUi.popView(WatchUi.SLIDE_UP);
         }
         else if(id == :undoMiss)
         {
             app.undoMiss();
+            WatchUi.popView(WatchUi.SLIDE_UP);
         }
         else if(id == :sessions)
         {
@@ -46,33 +49,14 @@ class BasketballTrackerMenuDelegate extends WatchUi.Menu2InputDelegate {
         else if (id == :stats)
         {
             app.saveSession();
-            var sessions = app.getAllSessions();
-            
-            // Create a CustomMenu for scrolling
-            var customMenu = new WatchUi.CustomMenu(60, Graphics.COLOR_WHITE, {
-                :title => new WatchUi.Text({
-                    :text => "History",
-                    :color => Graphics.COLOR_YELLOW,
-                    :justification => Graphics.TEXT_JUSTIFY_CENTER
-                })
-            });
-
-            if (sessions.size() == 0) 
-            {
-                customMenu.addItem(new SessionItem(:none, "No Data", "0", "0"));
-            } 
-            else 
-            {
-                for (var i = 0; i < sessions.size(); i++) 
-                {
-                    var s = sessions[i];
-                    // Add each session as a custom scrollable item
-                    customMenu.addItem(new SessionItem(i, s["name"], s["made"], s["total"]));
-                }
-            }
-
-            // Push the menu - it uses the same delegate logic as standard menus
-            WatchUi.pushView(customMenu, new WatchUi.Menu2InputDelegate(), WatchUi.SLIDE_UP);
+        
+            // Instead of building a complex menu, just push your new View
+            // We use a basic BehaviorDelegate so the user can exit the view
+            WatchUi.pushView(
+                new SessionDisplay(), 
+                new WatchUi.BehaviorDelegate(), 
+                WatchUi.SLIDE_UP
+            );
         }
 
     }

@@ -26,7 +26,7 @@ C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_8_
     }
     [ @file = "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionDisplay.mc"; @line = 12; @symbol_functiondef = [onUpdate,12,13,21]; @symbol_param<0> = [dc,12,22,24]; ]
     function onUpdate(dc) as Void {
-C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_13_4_58_4_start:
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_13_4_55_4_start:
 [ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionDisplay.mc" 15 8 ]
         %tmp.1 = lgetv %dc;
         symbol [ dc %tmp.1 15 8 10 ];
@@ -48,7 +48,7 @@ C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_13
         %tmp.8 = getv function %tmp.7 :clear;
         invoke %tmp.7 %tmp.8();
 [ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionDisplay.mc" 18 8 ]
-        [ "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_13_4_58_4_start" "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_13_4_58_4_stop" ]
+        [ "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_13_4_55_4_start" "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_13_4_55_4_stop" ]
         %app.1 = local;
         symbol [ app %app.1 18 12 15 ];
         symbol [ Application %tmp.10 18 18 29 ];
@@ -59,7 +59,7 @@ C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_13
         lputv %app.1 %tmp.12;
         symbol [ app %app.1 18 12 15 ];
 [ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionDisplay.mc" 19 8 ]
-        [ "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_13_4_58_4_start" "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_13_4_58_4_stop" ]
+        [ "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_13_4_55_4_start" "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_13_4_55_4_stop" ]
         %sessions.2 = local;
         symbol [ sessions %sessions.2 19 12 20 ];
         %tmp.13 = lgetv %app.1;
@@ -70,327 +70,313 @@ C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_13
         lputv %sessions.2 %tmp.15;
         symbol [ sessions %sessions.2 19 12 20 ];
 [ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionDisplay.mc" 21 8 ]
-        [ "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_13_4_58_4_start" "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_13_4_58_4_stop" ]
-        %width.3 = local;
-        symbol [ width %width.3 21 12 17 ];
+        [ "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_13_4_55_4_start" "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_13_4_55_4_stop" ]
+        %centerX.3 = local;
+        symbol [ centerX %centerX.3 21 12 19 ];
         %tmp.16 = lgetv %dc;
-        symbol [ dc %tmp.16 21 20 22 ];
-        symbol [ getWidth %tmp.17 21 23 31 ];
+        symbol [ dc %tmp.16 21 22 24 ];
+        symbol [ getWidth %tmp.17 21 25 33 ];
         %tmp.17 = getv function %tmp.16 :getWidth;
         %tmp.18 = invoke %tmp.16 %tmp.17();
-        lputv %width.3 %tmp.18;
-        symbol [ width %width.3 21 12 17 ];
+        %tmp.19 = 2;
+        %tmp.20 = div %tmp.18 %tmp.19;
+        lputv %centerX.3 %tmp.20;
+        symbol [ centerX %centerX.3 21 12 19 ];
 [ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionDisplay.mc" 22 8 ]
-        [ "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_13_4_58_4_start" "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_13_4_58_4_stop" ]
-        %height.4 = local;
-        symbol [ height %height.4 22 12 18 ];
-        %tmp.19 = lgetv %dc;
-        symbol [ dc %tmp.19 22 21 23 ];
-        symbol [ getHeight %tmp.20 22 24 33 ];
-        %tmp.20 = getv function %tmp.19 :getHeight;
-        %tmp.21 = invoke %tmp.19 %tmp.20();
-        lputv %height.4 %tmp.21;
-        symbol [ height %height.4 22 12 18 ];
-[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionDisplay.mc" 23 8 ]
-        [ "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_13_4_58_4_start" "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_13_4_58_4_stop" ]
-        %centerX.5 = local;
-        symbol [ centerX %centerX.5 23 12 19 ];
-        %tmp.22 = lgetv %width.3;
-        symbol [ width %tmp.22 23 22 27 ];
-        %tmp.23 = 2;
-        %tmp.24 = div %tmp.22 %tmp.23;
-        lputv %centerX.5 %tmp.24;
-        symbol [ centerX %centerX.5 23 12 19 ];
+        [ "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_13_4_55_4_start" "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_13_4_55_4_stop" ]
+        %centerY.4 = local;
+        symbol [ centerY %centerY.4 22 12 19 ];
+        %tmp.21 = lgetv %dc;
+        symbol [ dc %tmp.21 22 22 24 ];
+        symbol [ getHeight %tmp.22 22 25 34 ];
+        %tmp.22 = getv function %tmp.21 :getHeight;
+        %tmp.23 = invoke %tmp.21 %tmp.22();
+        %tmp.24 = 2;
+        %tmp.25 = div %tmp.23 %tmp.24;
+        lputv %centerY.4 %tmp.25;
+        symbol [ centerY %centerY.4 22 12 19 ];
 [ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionDisplay.mc" 24 8 ]
-        [ "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_13_4_58_4_start" "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_13_4_58_4_stop" ]
-        %centerY.6 = local;
-        symbol [ centerY %centerY.6 24 12 19 ];
-        %tmp.25 = lgetv %height.4;
-        symbol [ height %tmp.25 24 22 28 ];
-        %tmp.26 = 2;
-        %tmp.27 = div %tmp.25 %tmp.26;
-        lputv %centerY.6 %tmp.27;
-        symbol [ centerY %centerY.6 24 12 19 ];
-[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionDisplay.mc" 26 8 ]
-        [ "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_13_4_58_4_start" "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_13_4_58_4_stop" ]
-        %font.7 = local;
-        symbol [ font %font.7 26 12 16 ];
-        symbol [ Graphics %tmp.28 26 19 27 ];
+        [ "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_13_4_55_4_start" "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_13_4_55_4_stop" ]
+        %font.5 = local;
+        symbol [ font %font.5 24 12 16 ];
+        symbol [ Graphics %tmp.26 24 19 27 ];
+        %tmp.26 = getm $.Toybox.Graphics;
+        symbol [ FONT_TINY %tmp.27 24 28 37 ];
+        %tmp.27 = getv %tmp.26 :FONT_TINY;
+        lputv %font.5 %tmp.27;
+        symbol [ font %font.5 24 12 16 ];
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionDisplay.mc" 25 8 ]
+        [ "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_13_4_55_4_start" "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_13_4_55_4_stop" ]
+        %titleFont.6 = local;
+        symbol [ titleFont %titleFont.6 25 12 21 ];
+        symbol [ Graphics %tmp.28 25 24 32 ];
         %tmp.28 = getm $.Toybox.Graphics;
-        symbol [ FONT_TINY %tmp.29 26 28 37 ];
-        %tmp.29 = getv %tmp.28 :FONT_TINY;
-        lputv %font.7 %tmp.29;
-        symbol [ font %font.7 26 12 16 ];
-[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionDisplay.mc" 27 8 ]
-        [ "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_13_4_58_4_start" "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_13_4_58_4_stop" ]
-        %titleFont.8 = local;
-        symbol [ titleFont %titleFont.8 27 12 21 ];
-        symbol [ Graphics %tmp.30 27 24 32 ];
-        %tmp.30 = getm $.Toybox.Graphics;
-        symbol [ FONT_SMALL %tmp.31 27 33 43 ];
-        %tmp.31 = getv %tmp.30 :FONT_SMALL;
-        lputv %titleFont.8 %tmp.31;
-        symbol [ titleFont %titleFont.8 27 12 21 ];
+        symbol [ FONT_SMALL %tmp.29 25 33 43 ];
+        %tmp.29 = getv %tmp.28 :FONT_SMALL;
+        lputv %titleFont.6 %tmp.29;
+        symbol [ titleFont %titleFont.6 25 12 21 ];
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionDisplay.mc" 26 8 ]
+        [ "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_13_4_55_4_start" "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_13_4_55_4_stop" ]
+        %lineSpacing.7 = local;
+        symbol [ lineSpacing %lineSpacing.7 26 12 23 ];
+        %tmp.30 = lgetv %dc;
+        symbol [ dc %tmp.30 26 26 28 ];
+        symbol [ getFontHeight %tmp.31 26 29 42 ];
+        %tmp.31 = getv function %tmp.30 :getFontHeight;
+        %tmp.32 = lgetv %font.5;
+        symbol [ font %tmp.32 26 43 47 ];
+        %tmp.33 = invoke %tmp.30 %tmp.31(%tmp.32);
+        lputv %lineSpacing.7 %tmp.33;
+        symbol [ lineSpacing %lineSpacing.7 26 12 23 ];
 [ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionDisplay.mc" 28 8 ]
-        [ "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_13_4_58_4_start" "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_13_4_58_4_stop" ]
-        %lineSpacing.9 = local;
-        symbol [ lineSpacing %lineSpacing.9 28 12 23 ];
-        %tmp.32 = lgetv %dc;
-        symbol [ dc %tmp.32 28 26 28 ];
-        symbol [ getFontHeight %tmp.33 28 29 42 ];
-        %tmp.33 = getv function %tmp.32 :getFontHeight;
-        %tmp.34 = lgetv %font.7;
-        symbol [ font %tmp.34 28 43 47 ];
-        %tmp.35 = invoke %tmp.32 %tmp.33(%tmp.34);
-        lputv %lineSpacing.9 %tmp.35;
-        symbol [ lineSpacing %lineSpacing.9 28 12 23 ];
+        [ "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_13_4_55_4_start" "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_13_4_55_4_stop" ]
+        %titleY.8 = local;
+        symbol [ titleY %titleY.8 28 12 18 ];
+        %tmp.34 = 30;
+        lputv %titleY.8 %tmp.34;
+        symbol [ titleY %titleY.8 28 12 18 ];
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionDisplay.mc" 29 8 ]
+        %tmp.35 = lgetv %dc;
+        symbol [ dc %tmp.35 29 8 10 ];
+        symbol [ setColor %tmp.36 29 11 19 ];
+        %tmp.36 = getv function %tmp.35 :setColor;
+        symbol [ Graphics %tmp.37 29 20 28 ];
+        %tmp.37 = getm $.Toybox.Graphics;
+        symbol [ COLOR_YELLOW %tmp.38 29 29 41 ];
+        %tmp.38 = getv %tmp.37 :COLOR_YELLOW;
+        symbol [ Graphics %tmp.39 29 43 51 ];
+        %tmp.39 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.40 29 52 69 ];
+        %tmp.40 = getv %tmp.39 :COLOR_TRANSPARENT;
+        invoke %tmp.35 %tmp.36(%tmp.38, %tmp.40);
 [ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionDisplay.mc" 30 8 ]
-        [ "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_13_4_58_4_start" "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_13_4_58_4_stop" ]
-        %totalContentHeight.10 = local;
-        symbol [ totalContentHeight %totalContentHeight.10 30 12 30 ];
-        %tmp.36 = lgetv %dc;
-        symbol [ dc %tmp.36 30 33 35 ];
-        symbol [ getFontHeight %tmp.37 30 36 49 ];
-        %tmp.37 = getv function %tmp.36 :getFontHeight;
-        %tmp.38 = lgetv %titleFont.8;
-        symbol [ titleFont %tmp.38 30 50 59 ];
-        %tmp.39 = invoke %tmp.36 %tmp.37(%tmp.38);
-        %tmp.40 = lgetv %sessions.2;
-        symbol [ sessions %tmp.40 30 64 72 ];
-        symbol [ size %tmp.41 30 73 77 ];
-        %tmp.41 = getv function %tmp.40 :size;
-        %tmp.42 = invoke %tmp.40 %tmp.41();
-        %tmp.43 = lgetv %lineSpacing.9;
-        symbol [ lineSpacing %tmp.43 30 82 93 ];
-        %tmp.44 = mul %tmp.42 %tmp.43;
-        %tmp.45 = add %tmp.39 %tmp.44;
-        lputv %totalContentHeight.10 %tmp.45;
-        symbol [ totalContentHeight %totalContentHeight.10 30 12 30 ];
-[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionDisplay.mc" 31 8 ]
-        [ "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_13_4_58_4_start" "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_13_4_58_4_stop" ]
-        %currentY.11 = local;
-        symbol [ currentY %currentY.11 31 12 20 ];
-        %tmp.46 = lgetv %centerY.6;
-        symbol [ centerY %tmp.46 31 23 30 ];
-        %tmp.47 = lgetv %totalContentHeight.10;
-        symbol [ totalContentHeight %tmp.47 31 34 52 ];
-        %tmp.48 = 2;
-        %tmp.49 = div %tmp.47 %tmp.48;
-        %tmp.50 = sub %tmp.46 %tmp.49;
-        lputv %currentY.11 %tmp.50;
-        symbol [ currentY %currentY.11 31 12 20 ];
-[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionDisplay.mc" 33 8 ]
-        %tmp.51 = lgetv %dc;
-        symbol [ dc %tmp.51 33 8 10 ];
-        symbol [ setColor %tmp.52 33 11 19 ];
-        %tmp.52 = getv function %tmp.51 :setColor;
-        symbol [ Graphics %tmp.53 33 20 28 ];
-        %tmp.53 = getm $.Toybox.Graphics;
-        symbol [ COLOR_YELLOW %tmp.54 33 29 41 ];
-        %tmp.54 = getv %tmp.53 :COLOR_YELLOW;
-        symbol [ Graphics %tmp.55 33 43 51 ];
-        %tmp.55 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.56 33 52 69 ];
-        %tmp.56 = getv %tmp.55 :COLOR_TRANSPARENT;
-        invoke %tmp.51 %tmp.52(%tmp.54, %tmp.56);
+        %tmp.41 = lgetv %dc;
+        symbol [ dc %tmp.41 30 8 10 ];
+        symbol [ drawText %tmp.42 30 11 19 ];
+        %tmp.42 = getv function %tmp.41 :drawText;
+        %tmp.43 = lgetv %centerX.3;
+        symbol [ centerX %tmp.43 30 20 27 ];
+        %tmp.44 = lgetv %titleY.8;
+        symbol [ titleY %tmp.44 30 29 35 ];
+        %tmp.45 = lgetv %titleFont.6;
+        symbol [ titleFont %tmp.45 30 37 46 ];
+        %tmp.46 = "HISTORY";
+        symbol [ Graphics %tmp.47 30 59 67 ];
+        %tmp.47 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.48 30 68 87 ];
+        %tmp.48 = getv %tmp.47 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.41 %tmp.42(%tmp.43, %tmp.44, %tmp.45, %tmp.46, %tmp.48);
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionDisplay.mc" 32 8 ]
+        [ "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_13_4_55_4_start" "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_13_4_55_4_stop" ]
+        %currentY.9 = local;
+        symbol [ currentY %currentY.9 32 12 20 ];
+        %tmp.49 = lgetv %titleY.8;
+        symbol [ titleY %tmp.49 32 23 29 ];
+        %tmp.50 = lgetv %dc;
+        symbol [ dc %tmp.50 32 32 34 ];
+        symbol [ getFontHeight %tmp.51 32 35 48 ];
+        %tmp.51 = getv function %tmp.50 :getFontHeight;
+        %tmp.52 = lgetv %titleFont.6;
+        symbol [ titleFont %tmp.52 32 49 58 ];
+        %tmp.53 = invoke %tmp.50 %tmp.51(%tmp.52);
+        %tmp.54 = add %tmp.49 %tmp.53;
+        %tmp.55 = 5;
+        %tmp.56 = add %tmp.54 %tmp.55;
+        lputv %currentY.9 %tmp.56;
+        symbol [ currentY %currentY.9 32 12 20 ];
 [ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionDisplay.mc" 34 8 ]
         %tmp.57 = lgetv %dc;
         symbol [ dc %tmp.57 34 8 10 ];
-        symbol [ drawText %tmp.58 34 11 19 ];
-        %tmp.58 = getv function %tmp.57 :drawText;
-        %tmp.59 = lgetv %centerX.5;
-        symbol [ centerX %tmp.59 34 20 27 ];
-        %tmp.60 = lgetv %currentY.11;
-        symbol [ currentY %tmp.60 34 29 37 ];
-        %tmp.61 = lgetv %titleFont.8;
-        symbol [ titleFont %tmp.61 34 39 48 ];
-        %tmp.62 = "HISTORY";
-        symbol [ Graphics %tmp.63 34 61 69 ];
-        %tmp.63 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_CENTER %tmp.64 34 70 89 ];
-        %tmp.64 = getv %tmp.63 :TEXT_JUSTIFY_CENTER;
-        invoke %tmp.57 %tmp.58(%tmp.59, %tmp.60, %tmp.61, %tmp.62, %tmp.64);
-[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionDisplay.mc" 35 8 ]
-        %tmp.65 = lgetv %currentY.11;
-        symbol [ currentY %tmp.65 35 8 16 ];
-        %tmp.66 = lgetv %dc;
-        symbol [ dc %tmp.66 35 20 22 ];
-        symbol [ getFontHeight %tmp.67 35 23 36 ];
-        %tmp.67 = getv function %tmp.66 :getFontHeight;
-        %tmp.68 = lgetv %titleFont.8;
-        symbol [ titleFont %tmp.68 35 37 46 ];
-        %tmp.69 = invoke %tmp.66 %tmp.67(%tmp.68);
-        %tmp.70 = 2;
-        %tmp.71 = add %tmp.69 %tmp.70;
-        %tmp.72 = add %tmp.65 %tmp.71;
-        lputv %currentY.11 %tmp.72;
-        symbol [ currentY %currentY.11 35 8 16 ];
-[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionDisplay.mc" 37 8 ]
+        symbol [ setColor %tmp.58 34 11 19 ];
+        %tmp.58 = getv function %tmp.57 :setColor;
+        symbol [ Graphics %tmp.59 34 20 28 ];
+        %tmp.59 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.60 34 29 40 ];
+        %tmp.60 = getv %tmp.59 :COLOR_WHITE;
+        symbol [ Graphics %tmp.61 34 42 50 ];
+        %tmp.61 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.62 34 51 68 ];
+        %tmp.62 = getv %tmp.61 :COLOR_TRANSPARENT;
+        invoke %tmp.57 %tmp.58(%tmp.60, %tmp.62);
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionDisplay.mc" 36 8 ]
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_36_8_54_8_if_stmt:
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_36_12_36_51_begin:
+        %tmp.63 = lgetv %sessions.2;
+        symbol [ sessions %tmp.63 36 12 20 ];
+        %tmp.64 = null;
+        %tmp.65 = eq %tmp.63 %tmp.64;
+        bt %tmp.65 @C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_36_8_54_8_if_true;
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_36_32_36_51_false:
+        %tmp.66 = lgetv %sessions.2;
+        symbol [ sessions %tmp.66 36 32 40 ];
+        %tmp.67 = as %tmp.66 { (!Null) };
+        symbol [ size %tmp.68 36 41 45 ];
+        %tmp.68 = getv function %tmp.67 :size;
+        %tmp.69 = invoke %tmp.67 %tmp.68();
+        %tmp.70 = 0;
+        %tmp.71 = eq %tmp.69 %tmp.70;
+        push %tmp.71;
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_36_32_36_51_end:
+        %tmp.72 = phi [%tmp.65 @C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_36_12_36_51_begin] [%tmp.71 @C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_36_32_36_51_false] [%tmp.72 @C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_36_32_36_51_end];
+        bf %tmp.72 @C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_36_8_54_8_if_else_false;
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_36_8_54_8_if_true:
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_37_8_39_8_start:
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionDisplay.mc" 38 12 ]
         %tmp.73 = lgetv %dc;
-        symbol [ dc %tmp.73 37 8 10 ];
-        symbol [ setColor %tmp.74 37 11 19 ];
-        %tmp.74 = getv function %tmp.73 :setColor;
-        symbol [ Graphics %tmp.75 37 20 28 ];
-        %tmp.75 = getm $.Toybox.Graphics;
-        symbol [ COLOR_WHITE %tmp.76 37 29 40 ];
-        %tmp.76 = getv %tmp.75 :COLOR_WHITE;
-        symbol [ Graphics %tmp.77 37 42 50 ];
-        %tmp.77 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.78 37 51 68 ];
-        %tmp.78 = getv %tmp.77 :COLOR_TRANSPARENT;
-        invoke %tmp.73 %tmp.74(%tmp.76, %tmp.78);
-[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionDisplay.mc" 39 8 ]
-C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_39_8_57_8_if_stmt:
-        %tmp.79 = lgetv %sessions.2;
-        symbol [ sessions %tmp.79 39 12 20 ];
-        symbol [ size %tmp.80 39 21 25 ];
-        %tmp.80 = getv function %tmp.79 :size;
-        %tmp.81 = invoke %tmp.79 %tmp.80();
-        %tmp.82 = 0;
-        %tmp.83 = eq %tmp.81 %tmp.82;
-        bf %tmp.83 @C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_39_8_57_8_if_else_false;
-C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_39_8_57_8_if_true:
-C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_40_8_42_8_start:
-[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionDisplay.mc" 41 12 ]
-        %tmp.84 = lgetv %dc;
-        symbol [ dc %tmp.84 41 12 14 ];
-        symbol [ drawText %tmp.85 41 15 23 ];
-        %tmp.85 = getv function %tmp.84 :drawText;
-        %tmp.86 = lgetv %centerX.5;
-        symbol [ centerX %tmp.86 41 24 31 ];
-        %tmp.87 = lgetv %centerY.6;
-        symbol [ centerY %tmp.87 41 33 40 ];
-        %tmp.88 = lgetv %font.7;
-        symbol [ font %tmp.88 41 42 46 ];
-        %tmp.89 = "No data yet";
-        symbol [ Graphics %tmp.90 41 63 71 ];
-        %tmp.90 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_CENTER %tmp.91 41 72 91 ];
-        %tmp.91 = getv %tmp.90 :TEXT_JUSTIFY_CENTER;
-        invoke %tmp.84 %tmp.85(%tmp.86, %tmp.87, %tmp.88, %tmp.89, %tmp.91);
-C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_40_8_42_8_stop:
-        goto @C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_39_8_57_8_if_end;
-C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_39_8_57_8_if_else_false:
-C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_44_8_57_8_start:
-[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionDisplay.mc" 45 12 ]
-        for @C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_45_12_56_12_for_test @C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_45_12_56_12_for_incr @C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_45_12_56_12_for_end;
-C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_45_12_56_12_for_init:
-        [ "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_45_12_56_12_for_begin" "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_45_12_56_12_for_end" ]
-        %i.12 = local;
-        symbol [ i %i.12 45 21 22 ];
-        %tmp.92 = 0;
-        lputv %i.12 %tmp.92;
-        symbol [ i %i.12 45 21 22 ];
-C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_45_12_56_12_for_test:
-        %tmp.93 = lgetv %i.12;
-        symbol [ i %tmp.93 45 28 29 ];
-        %tmp.94 = lgetv %sessions.2;
-        symbol [ sessions %tmp.94 45 32 40 ];
-        symbol [ size %tmp.95 45 41 45 ];
-        %tmp.95 = getv function %tmp.94 :size;
-        %tmp.96 = invoke %tmp.94 %tmp.95();
-        %tmp.97 = lt %tmp.93 %tmp.96;
-        bf %tmp.97 @C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_45_12_56_12_for_end;
-C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_45_12_56_12_for_begin:
-C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_46_12_56_12_start:
-[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionDisplay.mc" 47 16 ]
-        [ "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_46_12_56_12_start" "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_46_12_56_12_stop" ]
-        %s.13 = local;
-        symbol [ s %s.13 47 20 21 ];
-        %tmp.98 = lgetv %sessions.2;
-        symbol [ sessions %tmp.98 47 24 32 ];
-        %tmp.99 = lgetv %i.12;
-        symbol [ i %tmp.99 47 33 34 ];
-        %tmp.100 = agetv %tmp.98 %tmp.99;
-        %tmp.101 = as %tmp.100 Dictionary;
-        symbol [ Dictionary %tmp.101 47 39 49 ];
-        lputv %s.13 %tmp.101;
-        symbol [ s %s.13 47 20 21 ];
-[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionDisplay.mc" 48 16 ]
-C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_48_16_54_16_if_stmt:
-        %tmp.102 = lgetv %s.13;
-        symbol [ s %tmp.102 48 19 20 ];
-        %tmp.103 = null;
-        %tmp.104 = ne %tmp.102 %tmp.103;
-        bf %tmp.104 @C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_48_16_54_16_if_end;
-C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_48_16_54_16_if_true:
-C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_49_16_54_16_start:
-[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionDisplay.mc" 51 20 ]
-        [ "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_49_16_54_16_start" "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_49_16_54_16_stop" ]
-        %label.14 = local;
-        symbol [ label %label.14 51 24 29 ];
-        symbol [ Lang %tmp.105 51 32 36 ];
-        %tmp.105 = getm $.Toybox.Lang;
-        symbol [ format %tmp.106 51 37 43 ];
-        %tmp.106 = getv function %tmp.105 :format;
-        %tmp.107 = "$1$: $2$/$3$";
-        %tmp.108 = newa 3;
-        %tmp.109 = lgetv %s.13;
-        symbol [ s %tmp.109 51 61 62 ];
-        %tmp.110 = as %tmp.109 { (!Null) };
-        %tmp.111 = "name";
-        %tmp.112 = agetv %tmp.110 %tmp.111;
-        %tmp.113 = dup %tmp.108;
-        %tmp.114 = aputv %tmp.113 0 %tmp.112;
-        %tmp.115 = lgetv %s.13;
-        symbol [ s %tmp.115 51 72 73 ];
-        %tmp.116 = as %tmp.115 { (!Null) };
-        %tmp.117 = "made";
-        %tmp.118 = agetv %tmp.116 %tmp.117;
-        %tmp.119 = dup %tmp.114;
-        %tmp.120 = aputv %tmp.119 1 %tmp.118;
-        %tmp.121 = lgetv %s.13;
-        symbol [ s %tmp.121 51 83 84 ];
-        %tmp.122 = as %tmp.121 { (!Null) };
-        %tmp.123 = "total";
-        %tmp.124 = agetv %tmp.122 %tmp.123;
-        %tmp.125 = dup %tmp.120;
-        %tmp.126 = aputv %tmp.125 2 %tmp.124;
-        %tmp.127 = invoke %tmp.105 %tmp.106(%tmp.107, %tmp.126);
-        lputv %label.14 %tmp.127;
-        symbol [ label %label.14 51 24 29 ];
-[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionDisplay.mc" 53 20 ]
-        %tmp.128 = lgetv %dc;
-        symbol [ dc %tmp.128 53 20 22 ];
-        symbol [ drawText %tmp.129 53 23 31 ];
-        %tmp.129 = getv function %tmp.128 :drawText;
-        %tmp.130 = lgetv %centerX.5;
-        symbol [ centerX %tmp.130 53 32 39 ];
-        %tmp.131 = lgetv %centerY.6;
-        symbol [ centerY %tmp.131 53 41 48 ];
-        %tmp.132 = lgetv %font.7;
-        symbol [ font %tmp.132 53 50 54 ];
-        %tmp.133 = lgetv %label.14;
-        symbol [ label %tmp.133 53 56 61 ];
-        symbol [ Graphics %tmp.134 53 63 71 ];
-        %tmp.134 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_CENTER %tmp.135 53 72 91 ];
-        %tmp.135 = getv %tmp.134 :TEXT_JUSTIFY_CENTER;
-        invoke %tmp.128 %tmp.129(%tmp.130, %tmp.131, %tmp.132, %tmp.133, %tmp.135);
-C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_49_16_54_16_stop:
-        goto @C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_48_16_54_16_if_end;
-C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_48_16_54_16_if_end:
-[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionDisplay.mc" 55 16 ]
-        %tmp.136 = lgetv %centerY.6;
-        symbol [ centerY %tmp.136 55 16 23 ];
-        %tmp.137 = lgetv %lineSpacing.9;
-        symbol [ lineSpacing %tmp.137 55 27 38 ];
-        %tmp.138 = add %tmp.136 %tmp.137;
-        lputv %centerY.6 %tmp.138;
-        symbol [ centerY %centerY.6 55 16 23 ];
-C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_46_12_56_12_stop:
-C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_45_12_56_12_for_incr:
-[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionDisplay.mc" 45 ]
-        %tmp.141 = lgetv %i.12;
-        symbol [ i %tmp.141 45 49 50 ];
-        %tmp.142 = add %tmp.141 1;
-        lputv %i.12 %tmp.142;
-        symbol [ i %i.12 45 49 50 ];
-        goto @C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_45_12_56_12_for_test;
-C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_45_12_56_12_for_end:
-C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_44_8_57_8_stop:
-C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_39_8_57_8_if_end:
-C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_13_4_58_4_stop:
+        symbol [ dc %tmp.73 38 12 14 ];
+        symbol [ drawText %tmp.74 38 15 23 ];
+        %tmp.74 = getv function %tmp.73 :drawText;
+        %tmp.75 = lgetv %centerX.3;
+        symbol [ centerX %tmp.75 38 24 31 ];
+        %tmp.76 = lgetv %centerY.4;
+        symbol [ centerY %tmp.76 38 33 40 ];
+        %tmp.77 = lgetv %font.5;
+        symbol [ font %tmp.77 38 42 46 ];
+        %tmp.78 = "No data yet";
+        symbol [ Graphics %tmp.79 38 63 71 ];
+        %tmp.79 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.80 38 72 91 ];
+        %tmp.80 = getv %tmp.79 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.73 %tmp.74(%tmp.75, %tmp.76, %tmp.77, %tmp.78, %tmp.80);
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_37_8_39_8_stop:
+        goto @C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_36_8_54_8_if_end;
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_36_8_54_8_if_else_false:
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_41_8_54_8_start:
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionDisplay.mc" 42 12 ]
+        for @C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_42_12_53_12_for_test @C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_42_12_53_12_for_incr @C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_42_12_53_12_for_end;
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_42_12_53_12_for_init:
+        [ "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_42_12_53_12_for_begin" "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_42_12_53_12_for_end" ]
+        %i.10 = local;
+        symbol [ i %i.10 42 21 22 ];
+        %tmp.81 = 0;
+        lputv %i.10 %tmp.81;
+        symbol [ i %i.10 42 21 22 ];
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_42_12_53_12_for_test:
+        %tmp.82 = lgetv %i.10;
+        symbol [ i %tmp.82 42 28 29 ];
+        %tmp.83 = lgetv %sessions.2;
+        symbol [ sessions %tmp.83 42 32 40 ];
+        %tmp.84 = as %tmp.83 { (!Null) };
+        symbol [ size %tmp.85 42 41 45 ];
+        %tmp.85 = getv function %tmp.84 :size;
+        %tmp.86 = invoke %tmp.84 %tmp.85();
+        %tmp.87 = lt %tmp.82 %tmp.86;
+        bf %tmp.87 @C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_42_12_53_12_for_end;
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_42_12_53_12_for_begin:
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_43_12_53_12_start:
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionDisplay.mc" 44 16 ]
+        [ "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_43_12_53_12_start" "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_43_12_53_12_stop" ]
+        %s.11 = local;
+        symbol [ s %s.11 44 20 21 ];
+        %tmp.88 = lgetv %sessions.2;
+        symbol [ sessions %tmp.88 44 24 32 ];
+        %tmp.89 = as %tmp.88 { (!Null) };
+        %tmp.90 = lgetv %i.10;
+        symbol [ i %tmp.90 44 33 34 ];
+        %tmp.91 = agetv %tmp.89 %tmp.90;
+        %tmp.92 = as %tmp.91 Dictionary;
+        symbol [ Dictionary %tmp.92 44 39 49 ];
+        lputv %s.11 %tmp.92;
+        symbol [ s %s.11 44 20 21 ];
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionDisplay.mc" 45 16 ]
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_45_16_51_16_if_stmt:
+        %tmp.93 = lgetv %s.11;
+        symbol [ s %tmp.93 45 19 20 ];
+        %tmp.94 = null;
+        %tmp.95 = ne %tmp.93 %tmp.94;
+        bf %tmp.95 @C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_45_16_51_16_if_end;
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_45_16_51_16_if_true:
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_46_16_51_16_start:
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionDisplay.mc" 47 20 ]
+        %tmp.96 = lgetv %dc;
+        symbol [ dc %tmp.96 47 20 22 ];
+        symbol [ setColor %tmp.97 47 23 31 ];
+        %tmp.97 = getv function %tmp.96 :setColor;
+        symbol [ Graphics %tmp.98 47 32 40 ];
+        %tmp.98 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.99 47 41 52 ];
+        %tmp.99 = getv %tmp.98 :COLOR_WHITE;
+        symbol [ Graphics %tmp.100 47 54 62 ];
+        %tmp.100 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.101 47 63 74 ];
+        %tmp.101 = getv %tmp.100 :COLOR_BLACK;
+        invoke %tmp.96 %tmp.97(%tmp.99, %tmp.101);
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionDisplay.mc" 49 20 ]
+        [ "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_46_16_51_16_start" "C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_46_16_51_16_stop" ]
+        %label.12 = local;
+        symbol [ label %label.12 49 24 29 ];
+        symbol [ Lang %tmp.102 49 32 36 ];
+        %tmp.102 = getm $.Toybox.Lang;
+        symbol [ format %tmp.103 49 37 43 ];
+        %tmp.103 = getv function %tmp.102 :format;
+        %tmp.104 = "$1$: $2$/$3$";
+        %tmp.105 = newa 3;
+        %tmp.106 = lgetv %s.11;
+        symbol [ s %tmp.106 49 61 62 ];
+        %tmp.107 = as %tmp.106 { (!Null) };
+        %tmp.108 = "name";
+        %tmp.109 = agetv %tmp.107 %tmp.108;
+        %tmp.110 = dup %tmp.105;
+        %tmp.111 = aputv %tmp.110 0 %tmp.109;
+        %tmp.112 = lgetv %s.11;
+        symbol [ s %tmp.112 49 72 73 ];
+        %tmp.113 = as %tmp.112 { (!Null) };
+        %tmp.114 = "made";
+        %tmp.115 = agetv %tmp.113 %tmp.114;
+        %tmp.116 = dup %tmp.111;
+        %tmp.117 = aputv %tmp.116 1 %tmp.115;
+        %tmp.118 = lgetv %s.11;
+        symbol [ s %tmp.118 49 83 84 ];
+        %tmp.119 = as %tmp.118 { (!Null) };
+        %tmp.120 = "total";
+        %tmp.121 = agetv %tmp.119 %tmp.120;
+        %tmp.122 = dup %tmp.117;
+        %tmp.123 = aputv %tmp.122 2 %tmp.121;
+        %tmp.124 = invoke %tmp.102 %tmp.103(%tmp.104, %tmp.123);
+        lputv %label.12 %tmp.124;
+        symbol [ label %label.12 49 24 29 ];
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionDisplay.mc" 50 20 ]
+        %tmp.125 = lgetv %dc;
+        symbol [ dc %tmp.125 50 20 22 ];
+        symbol [ drawText %tmp.126 50 23 31 ];
+        %tmp.126 = getv function %tmp.125 :drawText;
+        %tmp.127 = lgetv %centerX.3;
+        symbol [ centerX %tmp.127 50 32 39 ];
+        %tmp.128 = lgetv %currentY.9;
+        symbol [ currentY %tmp.128 50 41 49 ];
+        %tmp.129 = lgetv %font.5;
+        symbol [ font %tmp.129 50 51 55 ];
+        %tmp.130 = lgetv %label.12;
+        symbol [ label %tmp.130 50 57 62 ];
+        symbol [ Graphics %tmp.131 50 64 72 ];
+        %tmp.131 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.132 50 73 92 ];
+        %tmp.132 = getv %tmp.131 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.125 %tmp.126(%tmp.127, %tmp.128, %tmp.129, %tmp.130, %tmp.132);
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_46_16_51_16_stop:
+        goto @C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_45_16_51_16_if_end;
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_45_16_51_16_if_end:
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionDisplay.mc" 52 16 ]
+        %tmp.133 = lgetv %currentY.9;
+        symbol [ currentY %tmp.133 52 16 24 ];
+        %tmp.134 = lgetv %lineSpacing.7;
+        symbol [ lineSpacing %tmp.134 52 28 39 ];
+        %tmp.135 = add %tmp.133 %tmp.134;
+        lputv %currentY.9 %tmp.135;
+        symbol [ currentY %currentY.9 52 16 24 ];
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_43_12_53_12_stop:
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_42_12_53_12_for_incr:
+[ "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionDisplay.mc" 42 ]
+        %tmp.138 = lgetv %i.10;
+        symbol [ i %tmp.138 42 49 50 ];
+        %tmp.139 = add %tmp.138 1;
+        lputv %i.10 %tmp.139;
+        symbol [ i %i.10 42 49 50 ];
+        goto @C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_42_12_53_12_for_test;
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_42_12_53_12_for_end:
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_41_8_54_8_stop:
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_36_8_54_8_if_end:
+C__Users_jackc_source_repos_Garmin_BasketballTracker_source_SessionDisplay_mc_13_4_55_4_stop:
     }
 }
 [ @file = "C:\Users\jackc\source\repos\Garmin\BasketballTracker\source\SessionDisplay.mc"; @line = 1; ]

@@ -1,3 +1,4 @@
+/*
 import Toybox.WatchUi;
 import Toybox.Graphics;
 
@@ -24,3 +25,4 @@ class SessionItem extends WatchUi.CustomMenuItem {
         dc.drawText(centerX, centerY + 12, Graphics.FONT_XTINY, _stats, Graphics.TEXT_JUSTIFY_CENTER);
     }
 }
+*/
